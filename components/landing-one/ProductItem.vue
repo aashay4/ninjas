@@ -4,8 +4,8 @@
         <div class="single-product-box">
             <div class="product-image">
                 <nuxt-link :to="'/' + product.id">
-                    <img :src="product.image" :alt="product.name" style="height: 150px; width: 185px">
-                    <img :src="product.imageHover" :alt="product.name">
+                    <img :src="product.image" :alt="product.namel" style="height: 150px; width: 185px">
+                    <img :src="product.imageHover" :alt="product.namel">
                 </nuxt-link>
 
                 <ul>
@@ -44,7 +44,7 @@
 
             <div class="product-content">
                 <h3>
-                    <nuxt-link :to="`/${product.id}`">{{product.name}}</nuxt-link>
+                    <nuxt-link :to="`/${product.id}`">{{product.namel}}</nuxt-link>
                 </h3>
 
                 <div class="product-price">
@@ -110,7 +110,7 @@ export default {
         addToCart(item){
             const product = [{
                 id: item.id,
-                name: item.name,
+                namel: item.namel,
                 price: item.price,
                 image: item.image,
                 quantity: 1,
