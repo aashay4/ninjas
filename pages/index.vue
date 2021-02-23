@@ -263,7 +263,7 @@ export default {
       title: 'Best Laptops of 2021',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'Best laptops of 2021. Travel through this article and know more' },
+        { hid: 'description', name: 'description', content: 'Best laptops of 2021. Travel through this article and know more.' },
         { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
       ],
       link: [
