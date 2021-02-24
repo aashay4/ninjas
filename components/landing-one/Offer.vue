@@ -8,7 +8,7 @@
                         <img src="../../assets/img/laptop_company.jpg" alt="image">
 
                         <div class="category">
-                            <h4>Laptop Companies</h4>
+                            <h4>Best Laptop Companies</h4>
                         </div>
 
                         <div class="box-inner">
@@ -32,7 +32,7 @@
                         <img src="../../assets/img/laptop_reason.jpg" alt="image">
 
                         <div class="category">
-                            <h4>Laptops for</h4>
+                            <h4>Best Laptops for</h4>
                         </div>
 
                         <div class="box-inner">
@@ -56,7 +56,7 @@
                         <img src="../../assets/img/laptops_os.jpg" alt="image">
 
                         <div class="category">
-                            <h4>Laptop OS</h4>
+                            <h4>Best Laptop OS</h4>
                         </div>
 
                         <div class="box-inner">

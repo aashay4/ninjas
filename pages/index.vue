@@ -54,7 +54,7 @@
 
                               <div class="collapse-widget collections-list-widget">
                                   <h3 v-b-toggle.collapse-2 class="collapse-widget-title">
-                                      Laptop Company
+                                      Best Laptop Company
 
                                       <i class="fas fa-angle-up"></i>
                                   </h3>
@@ -199,15 +199,8 @@
                                     <div class="col d-flex">
                                         <div class="products-ordering-list">
                                             <select>
-                                                <option value="1">Featured</option>
-                                                <option value="2">Best Selling</option>
-                                                <option value="3">Price Ascending</option>
-                                                <option value="4">Price Descending</option>
-                                                <option value="5">Date Ascending</option>
-                                                <option value="6">Date Descending</option>
-                                                <option value="7">Name Ascending</option>
-                                                <option value="8">Name Descending</option>
-                                            </select>
+                                                <option value="1">All</option>
+                                                </select>
                                         </div>
                                     </div>
                                 </div>
@@ -263,8 +256,8 @@ export default {
       title: 'Best Laptops of 2021',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'Best laptops of 2021. Travel through this article and know more.' },
-        { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+        { hid: 'description', name: 'description', content: 'The best laptops of 2021. This list includes best laptop companies like Dell, Apple, HP and many more.' },
+        { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
  {rel: 'canonical', href: 'https://laptops.ninja/' }
