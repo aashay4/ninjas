@@ -27,8 +27,16 @@
                         :star4 = "product.star4"
                         :star5 = "product.star5"
                         :link = "product.link"
+                        :os = "product.os"
                     />
-                    <DetailsInfo />
+                    <DetailsInfo
+                    :description = "product.description"
+                    :namel = "product.namel"
+                    :ram = "product.ram"
+                    :os = "product.os"
+                    :processor = "product.processor"
+                    :storage = "product.storage"
+                     />
                     <RelatedProducts :id = "product.id" />
                 </div>
             </div>
@@ -52,7 +60,7 @@ export default {
       title: this.product.namel,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: this.product.namel }
+        { hid: 'description', name: 'description', content: this.product.namel + ' review and specs'}
       ],
       link: [
  {rel: 'canonical', href: 'https://laptops.ninja/' + this.product.id }

@@ -98,10 +98,10 @@
   export default {
     head () {
     return {
-      title: '',
+      title: 'Contact Us!',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: ' ' },
+        { hid: 'description', name: 'description', content: 'Contact us today!' },
         { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [

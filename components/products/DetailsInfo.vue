@@ -5,16 +5,25 @@
                 <div class="col-lg-12 col-md-12">
                     <ul class="tabs">
                         <li><a href="#">
-                            <div class="dot"></div> Description
+                            <div class="dot"></div> About {{namel}}
                         </a></li>
                     </ul>
                 </div>
+
+                <div class="col-lg-6 col-md-6">
+                                        <ul>
+                                            <li>RAM: {{ram}}</li>
+                                            <li>os: {{os}}</li>
+                                            <li>processor: {{processor}}</li>
+                                            <li>storage: {{storage}}</li>
+                                        </ul>
+                                    </div>
 
                 <div class="col-lg-12 col-md-12">
                     <div class="tab_content">
                         <div class="tabs_item">
                             <div class="products-details-tab-content">
-                                <p>Description.</p>
+                                <p>{{description}}.</p>
                                   </div>
                         </div>
                     </div>
@@ -23,3 +32,16 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+    data(){
+        return {
+            getExistPId: false,
+            quantity: 1
+        }
+    },
+    props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link', 'description', 'ram', 'os', 'processor', 'storage' ],
+    methods: {
+    }
+}
+</script>

@@ -6,7 +6,7 @@
             <div class="price">
                 <span class="new-price">${{price}}</span>
             </div>
-
+  
             <div class="product-review">
                 <div class="rating">
                     <i :class="star1"></i>
@@ -61,7 +61,7 @@ export default {
             quantity: 1
         }
     },
-    props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link' ],
+    props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link', 'os' ],
     computed: {
         cart(){
             return this.$store.getters.cart
