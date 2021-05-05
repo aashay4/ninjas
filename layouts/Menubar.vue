@@ -6,7 +6,7 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <nuxt-link class="navbar-brand" to="/">
-                            <img src="../assets/img/laptop_ninja.png" alt="Laptops">
+                            <h1>Laptops</h1>
                         </nuxt-link>
 
                         <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
