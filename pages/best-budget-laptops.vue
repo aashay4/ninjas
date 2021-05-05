@@ -9,6 +9,7 @@
             </div>
         </div>
 
+
         <section class="blog-details-area ptb-60">
             <div class="container">
                 <div class="row">
