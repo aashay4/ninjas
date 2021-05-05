@@ -9,7 +9,6 @@
             </div>
         </div>
 
-
         <section class="blog-details-area ptb-60">
             <div class="container">
                 <div class="row">
@@ -309,6 +308,19 @@ import ProductItem from '../components/landing-one/ProductItem';
       QuckView,
       ProductItem
     },
+    head () {
+    return {
+      title: 'Best budget laptop for 2021',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: '' },
+        { hid: 'robots', name: 'robots', content: 'index,follow' }
+      ],
+      link: [
+ {rel: 'canonical', href: 'https://laptops.ninja/best-budget-laptops' }
+]
+    }
+  },
   data() {
     return {
       company: 'HP',

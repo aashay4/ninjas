@@ -122,6 +122,19 @@ import popularposts from '../components/landing-one/popularposts';
 export default{
   components: {
     popularposts
+  },
+  head () {
+  return {
+    title: 'Best HP laptops',
+    meta: [
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+      { hid: 'description', name: 'description', content: '' },
+      { hid: 'robots', name: 'robots', content: 'index,follow' }
+    ],
+    link: [
+{rel: 'canonical', href: 'https://laptops.ninja/hp' }
+]
   }
+},
 }
 </script>
