@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="col-lg-12 col-md-12"><br>
+  <div class="col-lg-4 col-md-4"><br>
       <aside class="widget-area" id="secondary">
           <section class="widget widget_comero_posts_thumb">
               <h3 class="widget-title">Popular Posts</h3>

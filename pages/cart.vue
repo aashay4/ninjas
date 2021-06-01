@@ -22,15 +22,15 @@ export default {
     },
     head () {
     return {
-      title: ' ',
+      title: '',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: ' ' },
-        { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+        { hid: 'description', name: 'description', content: '' },
+        { hid: 'robots', name: 'robots', content: 'noindex,bofollow' }
       ],
       link: [
- {rel: 'canonical', href: 'https://laptops.ninja/cart' }
-]
+  {rel: 'canonical', href: 'https://laptops.ninja/cart' }
+  ]
     }
   }
 }

@@ -36,6 +36,7 @@
                     :os = "product.os"
                     :processor = "product.processor"
                     :storage = "product.storage"
+                    :weight = "product.weight"
                      />
                     <RelatedProducts :id = "product.id" />
                 </div>

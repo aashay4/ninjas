@@ -8,7 +8,7 @@
                     <div class="modal-content">
                         <button type="button" class="close" @click="closeSidebarPanel"><span aria-hidden="true">&times;</span></button>
 
-                        <div 
+                        <div
                             class="modal-body"
                             v-if="cart.length > 0"
                         >
@@ -16,7 +16,7 @@
 
                             <div class="product-cart-content">
 
-                                <div 
+                                <div
                                     class="product-cart"
                                     v-for="cart in cart"
                                     :key="cart.id"
@@ -52,8 +52,8 @@
                         <div class="modal-body" v-else>
                             <h3>Empty!</h3>
                             <div @click="closeSidebarPanel" class="product-cart-btn">
-                                <nuxt-link to="/products" class="btn btn-primary">Browse All Time Hot!</nuxt-link>
-                                <nuxt-link to="/products" class="btn btn-light">Browse Latest!</nuxt-link>
+                                <nuxt-link to="/" class="btn btn-primary">Browse All Time Hot!</nuxt-link>
+                                <nuxt-link to="/" class="btn btn-light">Browse Latest!</nuxt-link>
                             </div>
                         </div>
                     </div>

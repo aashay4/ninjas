@@ -8,7 +8,7 @@
                     <img :src="product.imageHover" :alt="product.namel">
                 </nuxt-link>
 
-              
+
                 <Timer v-if="product.timePeriod" v-bind:dateTime="product.dateTime"></Timer>
             </div>
 
@@ -64,7 +64,7 @@ export default {
     },
     data(){
         return {
-            getExistPId: null
+            getExistPId: null,
         }
     },
     props: ['product', 'className'],
@@ -116,6 +116,6 @@ export default {
                 });
             }
         }
-    }
+    },
 }
 </script>

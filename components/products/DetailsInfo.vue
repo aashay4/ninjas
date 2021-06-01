@@ -12,10 +12,12 @@
 
                 <div class="col-lg-6 col-md-6">
                                         <ul>
-                                            <li>RAM: {{ram}}</li>
+                                            <li>RAM: {{ram}} GB</li>
                                             <li>os: {{os}}</li>
                                             <li>processor: {{processor}}</li>
-                                            <li>storage: {{storage}}</li>
+                                            <li v-if="storage > 999">storage: {{storage/1000}} TB</li>
+                                            <li v-else>Storage: {{storage}} GB</li>
+                                            <li>weight: {{weight}} Pounds</li>
                                         </ul>
                                     </div>
 
@@ -40,7 +42,7 @@ export default {
             quantity: 1
         }
     },
-    props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link', 'description', 'ram', 'os', 'processor', 'storage' ],
+    props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link', 'description', 'ram', 'os', 'processor', 'storage', 'weight' ],
     methods: {
     }
 }

@@ -15,12 +15,20 @@
                             <div class="inner-content">
                                 <h3>Laptop Companies</h3>
                                 <ul>
-                                    <li>HP</li>
-                                    <li>Apple</li>
-                                    <li>Dell</li>
-                                    <li>MSI</li>
-                                    <li>Acer</li>
-                                    <li>Lenovo</li>
+                                    <li><nuxt-link to="/hp"> HP</nuxt-link></li>
+                                    <li><nuxt-link to="/apple"> Apple</nuxt-link></li>
+                                    <li>
+                                      <nuxt-link to="/dell"> Dell</nuxt-link>
+                                    </li>
+                                    <li>
+                                      <nuxt-link to="/msi"> MSI</nuxt-link>
+                                    </li>
+                                    <li>
+                                      <nuxt-link to="/acer"> Acer</nuxt-link>
+                                    </li>
+                                    <li>
+                                      <nuxt-link to="/best-lenovo-laptops"> Lenovo</nuxt-link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -40,12 +48,8 @@
                                 <h3>Laptops for</h3>
 
                                 <ul>
-                                    <li>Gaming</li>
-                                    <li>Students</li>
-                                    <li>Programming</li>
-                                    <li>Video Editing</li>
-                                    <li>Music Production</li>
-                                </ul>
+                                    <li><nuxt-link to="/best-gaming-laptops">Gaming</nuxt-link></li>
+                                        </ul>
                             </div>
                         </div>
                     </div>
@@ -64,9 +68,15 @@
                                 <h3>Laptop OS</h3>
 
                                 <ul>
-                                    <li>MACos</li>
-                                    <li>Windows</li>
-                                    <li>ChromeOS</li>
+                                    <li><nuxt-link to="/apple"> MACos</nuxt-link></li>
+                                    <li>
+                                      <nuxt-link to="/best-windows-laptops"> Windows</nuxt-link>
+                                    </li>
+                                    <li>
+                                      <nuxt-link to='/best-chromebook-laptops'>
+                                      ChromeOS
+                                    </nuxt-link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

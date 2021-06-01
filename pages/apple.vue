@@ -4,7 +4,7 @@
             <div class="container">
                 <ul>
                     <li><nuxt-link to="/">Home</nuxt-link></li>
-                    <li>Best Budget Laptops</li>
+                    <li>Best Apple Laptops</li>
                 </ul>
             </div>
         </div>
@@ -20,40 +20,13 @@
                                     <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
                                     </ul>
 
-                                <h1>The Best Budget Laptops for 2021</h1>
-                                <blockquote class="wp-block-quote">
-                                    <p>The low cost or affordable laptops can handle everyday computing work and in some cases you can play a few games as well. Normally budget laptops ring around $500. If you plan for the ChromeOS, you can get a good machine spending less bucks.</p>
-                                </blockquote>
-                                <p>Now it's possible to get a decent windows laptop at just around $500. You do not need to spend a lot of money with a view to getting a good performing machine. Chromebook laptops in this list are normally cheaper then the windows laptop. If your budget is around $200-300 then Chromebooks can be right choice.</p>
-                                <p>With budget laptops, you should be prepared to compromise on a few specifications. Apart from that, you can get a good performing machine for just around $500.</p>
-                                <h2>Affordabe laptops list</h2>
-                                <p>
-                                <b>1) HP Chromebook 15</b> <br>
-                                <p>If you are looking for a great performance and long-lasting battery life then HP Chromebook 15 is for you. On top of that, this machine offers decent refreshing designs at very reasonable price. Talking about the features, this HP machine offers Intel Core i3-8130U processor, 4 GB RAM, and 128 GB storage which is above average for a chromebook laptop.</p>
-                                <a
-                                    href="https://amzn.to/2Vutlpt"
-                                    class="btn btn-light"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                                <b>2) Acer Chromebook 714</b><br>
-                                <p>You are going to witness a lot of Chromebook laptops in this list. Acer is a great producer of Chromebook laptops. Acer has been widely appreatiated for the performance of different Chromebook laptops. Talking about the Acer Chromebook 714 laptop, it is perticularly built for the daily work for a sub-400 budget. If you add a few bucks, you can buy an acer chromebook with some higher specifications. It offers 8 GB RAM, 64 GB storage, Intel Core i3-8130U processor and Intel UHD Graphics.</p>
-                                <a
-                                    href="https://amzn.to/2KRwDRx"
-                                    class="btn btn-light"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                              </p>
+                                <h1>The Macbook for 2021</h1>
                                   </div>
                         </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
-                                  <div class="section-title">
-                                      <h2><span class="dot"></span> Set your budget</h2>
-                                  </div>
-
+                                  
                                   <div class="row">
                                     <div class="col-lg-4 col-md-12">
                                         <div class="woocommerce-sidebar-area">
@@ -310,22 +283,22 @@ import ProductItem from '../components/landing-one/ProductItem';
     },
     head () {
     return {
-      title: 'Best budget laptop for 2021',
+      title: 'Best Macbook laptops',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: '' },
+        { hid: 'description', name: 'description', content: 'Macbook laptops' },
         { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
- {rel: 'canonical', href: 'https://laptops.ninja/best-budget-laptops' }
+ {rel: 'canonical', href: 'https://laptops.ninja/apple' }
 ]
     }
   },
   data() {
     return {
-      company: 'No Preference',
+      company: 'Apple',
       purpose: 'No Preference',
-      price: 1000,
+      price: 'No Preference',
       size: 'No Preference'
     }
   },
