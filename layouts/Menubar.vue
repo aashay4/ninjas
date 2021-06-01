@@ -15,11 +15,14 @@
                             <ul class="navbar-nav">
 
                                 <li class="nav-item">
-                                    <nuxt-link to="/" class="nav-link">Home</nuxt-link>
+                                    <nuxt-link to="/" class="nav-link">Home |</nuxt-link>
                                 </li>
 
                                 <li class="nav-item">
-                                    <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
+                                    <nuxt-link to="/contact" class="nav-link"> Contact |</nuxt-link>
+                                </li>
+                                <li class="nav-item">
+                                    <nuxt-link to="/laptop-finder" class="nav-link"> Laptop Finder</nuxt-link>
                                 </li>
                             </ul>
 

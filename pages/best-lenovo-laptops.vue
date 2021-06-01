@@ -13,16 +13,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="blog-details">
-                            <div class="article-content">
-                                <ul class="entry-meta">
-                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
-                                    </ul>
-
-                                <h1>Best Lenovo laptops 2021</h1>
-                                  </div>
-                        </div>
+                      <div class="section-title without-bg">
+                      <h2><span class="dot"></span> Lenovo Laptops</h2>
+                    </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">

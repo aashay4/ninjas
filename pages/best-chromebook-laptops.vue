@@ -13,20 +13,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="blog-details">
-                            <div class="article-content">
-                                <ul class="entry-meta">
-                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
-                                    </ul>
-
-                                <h1>Best Chromebook laptops 2021</h1>
-                                  </div>
-                        </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
-
+                                <div class="section-title without-bg">
+                                <h2><span class="dot"></span> Choose the best Chromebook laptops</h2>
+                              </div>
                                   <div class="row">
                                     <div class="col-lg-4 col-md-12">
                                         <div class="woocommerce-sidebar-area">
@@ -80,11 +72,9 @@
                                                 </h3>
                                                 <b-collapse visible id="collapse-7">
                                                     <ul class="collections-list-row">
-                                                        <li><input type="radio" id="MacOS" value="MacOS" v-model="os"> <label for="MacOS">MacOS</label></li>
-                                                        <li><input type="radio" id="Windows 10" value="Windows 10" v-model="os"> <label for="MacOS">Windows</label></li>
+
                                                         <li><input type="radio" id="ChromeOS" value="ChromeOS" v-model="os"> <label for="ChromeOS">ChromeOS</label></li>
-                                                        <li><input type="radio" id="No Preference" value="No Preference" v-model="os"> <label for="No Preference">No Preference</label></li>
-                                                    </ul>
+                                                        </ul>
                                                 </b-collapse>
                                             </div>
 

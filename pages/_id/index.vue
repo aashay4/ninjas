@@ -37,6 +37,8 @@
                     :processor = "product.processor"
                     :storage = "product.storage"
                     :weight = "product.weight"
+                    :batterylife = "product.batterylife"
+                    :gpu = "product.gpu"
                      />
                     <RelatedProducts :id = "product.id" />
                 </div>
@@ -44,8 +46,6 @@
         </section>
     </div>
 </template>
-
-
 
 <script>
 import ProductImages from '../../components/products/ProductImages';

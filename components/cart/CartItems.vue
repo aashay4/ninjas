@@ -22,20 +22,15 @@
                                         <tr v-for="(cart, i) in cart" :key="i">
                                             <td class="product-thumbnail">
                                                 <a href="#">
-                                                    <img :src="cart.image" :alt="cart.name" />
+                                                    <img :src="cart.image" :alt="cart.namel" />
                                                 </a>
                                             </td>
 
                                             <td class="product-name">
-                                                <nuxt-link :to="`/products-details/${cart.id}`">
-                                                    {{cart.name}}
+                                                <nuxt-link :to="`/${cart.id}`">
+                                                    {{cart.namel}}
                                                 </nuxt-link>
-                                                <ul>
-                                                    <li>Color: <strong>Light Blue</strong></li>
-                                                    <li>Size: <strong>XL</strong></li>
-                                                    <li>Material: <strong>Cotton</strong></li>
-                                                </ul>
-                                            </td>
+                                                </td>
 
                                             <td class="product-price">
                                                 <span class="unit-amount">${{cart.price}}</span>
@@ -55,7 +50,7 @@
                                                 <a href="javascript:void(0)" @click="removeItemFromCart(cart.id)" class="remove"><i class="far fa-trash-alt"></i></a>
                                             </td>
                                         </tr>
-                                        
+
                                     </tbody>
                                 </table>
                             </div>
@@ -64,7 +59,7 @@
                                 <div class="row">
                                     <div class="col-lg-7 col-md-7">
                                         <div class="continue-shopping-box">
-                                            <nuxt-link to="/products" class="btn btn-light">Continue Shopping</nuxt-link>
+                                            <nuxt-link to="/" class="btn btn-light">Continue Shopping</nuxt-link>
                                         </div>
                                     </div>
 
@@ -74,11 +69,8 @@
 
                                             <ul>
                                                 <li>Subtotal <span>${{cartTotal}}</span></li>
-                                                <li>Shipping <span>$10.00</span></li>
-                                                <li>Total <span><b>${{parseFloat(cartTotal + 10).toFixed(2)}}</b></span></li>
                                             </ul>
-                                            <nuxt-link to="/checkout" class="btn btn-light">Proceed to Checkout</nuxt-link>
-                                        </div>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +91,7 @@ export default {
         cartTotal(){
             return this.$store.getters.totalAmount
         }
-    }, 
+    },
     methods: {
         removeItemFromCart(id){
             this.$store.dispatch('deleteCart', id)

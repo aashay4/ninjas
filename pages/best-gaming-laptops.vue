@@ -13,20 +13,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="blog-details">
-                            <div class="article-content">
-                                <ul class="entry-meta">
-                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
-                                    </ul>
-
-                                <h1>Best Gaming laptops 2021</h1>
-                                  </div>
-                        </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
-
+                                <div class="section-title without-bg">
+                                <h2><span class="dot"></span> Gaming Laptops</h2>
+                              </div>
                                   <div class="row">
                                     <div class="col-lg-4 col-md-12">
                                         <div class="woocommerce-sidebar-area">
@@ -81,10 +73,6 @@
                                                 <b-collapse visible id="collapse-3">
                                                     <ul class="brands-list-row">
                       <li><input type="radio" id="Gaming" value="Gaming" v-model="purpose"> <label for="Gaming">Gaming</label></li>
-                      <li><input type="radio" id="High-performance" value="High-performance" v-model="purpose"> <label for="High-performance">High-performance (Video/Designing)</label></li>
-                      <li><input type="radio" id="All-purpose" value="All-purpose" v-model="purpose"> <label for="All-purpose">All-purpose (Business/Student/Writing/Programming)</label></li>
-                      <li><input type="radio" id="General-purpose" value="General-purpose" v-model="purpose"> <label for="All-purpose">General-purpose (Kids/Cheap/Daily-use)</label></li>
-                      <li><input type="radio" id="No Preference" value="No Preference" v-model="purpose"> <label for="No Preference">No Preference</label></li>
                                                     </ul>
                                                 </b-collapse>
                                             </div>

@@ -22,14 +22,14 @@
 
                                 <h1>The Best Budget Laptops for 2021</h1>
                                 <blockquote class="wp-block-quote">
-                                    <p>The low cost or affordable laptops can handle everyday computing work and in some cases you can play a few games as well. Normally budget laptops ring around $500. If you plan for the ChromeOS, you can get a good machine spending less bucks.</p>
+                                    <p>The low-cost or affordable laptops can handle everyday computing work and in some cases, you can play a few games as well. Normally budget laptops ring around $500. If you plan for the ChromeOS, you can get a good machine spending fewer bucks.</p>
                                 </blockquote>
-                                <p>Now it's possible to get a decent windows laptop at just around $500. You do not need to spend a lot of money with a view to getting a good performing machine. Chromebook laptops in this list are normally cheaper then the windows laptop. If your budget is around $200-300 then Chromebooks can be right choice.</p>
-                                <p>With budget laptops, you should be prepared to compromise on a few specifications. Apart from that, you can get a good performing machine for just around $500.</p>
-                                <h2>Affordabe laptops list</h2>
+                                <p>Now it's possible to get a decent windows laptop at just around $500. You do not need to spend a lot of money to get a good-performing machine. Chromebook laptops in this list are normally cheaper than windows laptops. If your budget is around $200-300 then Chromebooks can be the right choice.</p>
+                                <p>With budget laptops, you should be prepared to compromise on a few specifications. Apart from that, you can get a good-performing machine for just around $500.</p>
+                                <h2>Affordable laptops list</h2>
                                 <p>
                                 <b>1) HP Chromebook 15</b> <br>
-                                <p>If you are looking for a great performance and long-lasting battery life then HP Chromebook 15 is for you. On top of that, this machine offers decent refreshing designs at very reasonable price. Talking about the features, this HP machine offers Intel Core i3-8130U processor, 4 GB RAM, and 128 GB storage which is above average for a chromebook laptop.</p>
+                                <p>If you are looking for a great performance and long-lasting battery life then HP Chromebook 15 is for you. On top of that, this machine offers decent refreshing designs at a very reasonable price. Talking about the features, this HP machine offers an Intel Core i3-8130U processor, 4 GB RAM, and 128 GB storage which is above average for a Chromebook laptop.</p>
                                 <a
                                     href="https://amzn.to/2Vutlpt"
                                     class="btn btn-light"
@@ -325,7 +325,7 @@ import ProductItem from '../components/landing-one/ProductItem';
     return {
       company: 'No Preference',
       purpose: 'No Preference',
-      price: 1000,
+      price: 500,
       size: 'No Preference'
     }
   },

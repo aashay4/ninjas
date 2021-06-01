@@ -19,11 +19,15 @@
         <TrendingProducts />
         <BestSellers />
         <Offer />
-        <div class="">
-          <section class="products-collections-area ptb-60" ref="porto">
-              <div class="container">
 
-                  <div class="row">
+        <div class="">
+
+          <section class="products-collections-area ptb-60" ref="porto">
+            <div class="section-title without-bg">
+            <h2><span class="dot"></span> Select Perfect Laptop</h2>
+          </div>
+              <div class="container">
+                <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="woocommerce-sidebar-area">
                             <div class="collapse-widget filter-list-widget">
@@ -176,6 +180,14 @@
                                               <option value="8 GB RAM"> 8 GB RAM</option>
                                               <option value="16 GB RAM"> 16 GB RAM</option>
                                               <option value="32 GB RAM"> 32 GB RAM</option>
+                                              <option value="10 Hours Battery life"> 10+ Hours Battery life</option>
+                                              <option value="Intel Core i3 processor"> Intel Core i3 processor</option>
+                                              <option value="Intel Core i5 processor"> Intel Core i5 processor</option>
+                                              <option value="Intel Core i7 processor"> Intel Core i7 processor</option>
+                                              <option value="NVIDIA GeForce RTX 2060"> NVIDIA GeForce RTX 2060</option>
+                                              <option value="NVIDIA GeForce GTX 1660 Ti"> NVIDIA GeForce GTX 1660 Ti</option>
+                                              <option value="NVIDIA GeForce RTX 2070"> NVIDIA GeForce RTX 2070</option>
+                                              <option value="Intel UHD Graphics 620"> Intel UHD Graphics 620</option>
                                               </select>
                                       </div>
                                   </div>
@@ -522,6 +534,38 @@ export default {
           {
           return this.$store.state.products.all.filter(product => product.ram === 32)
         }
+        else if(this.options === "10 Hours Battery life")
+        {
+        return this.$store.state.products.all.filter(product => product.batterylife > 10)
+      }
+      else if(this.options === "Intel Core i5 processor")
+      {
+      return this.$store.state.products.all.filter(product => product.processor.indexOf("i5") !== -1)
+    }
+    else if(this.options === "Intel Core i3 processor")
+    {
+    return this.$store.state.products.all.filter(product => product.processor.indexOf("i3") !== -1)
+  }
+  else if(this.options === "Intel Core i7 processor")
+  {
+  return this.$store.state.products.all.filter(product => product.processor.indexOf("i7") !== -1)
+}
+else if(this.options === "NVIDIA GeForce RTX 2060")
+{
+return this.$store.state.products.all.filter(product => product.gpu === "NVIDIA GeForce RTX 2060")
+}
+else if(this.options === "NVIDIA GeForce GTX 1660 Ti")
+{
+return this.$store.state.products.all.filter(product => product.gpu === "NVIDIA GeForce GTX 1660 Ti")
+}
+else if(this.options === "NVIDIA GeForce RTX 2070")
+{
+return this.$store.state.products.all.filter(product => product.gpu.indexOf("NVIDIA GeForce RTX 2070") !== -1)
+}
+else if(this.options === "Intel UHD Graphics 620")
+{
+return this.$store.state.products.all.filter(product => product.gpu.indexOf("Intel UHD Graphics 620") !== -1)
+}
                   }
                     else{
                       this.options = "All";

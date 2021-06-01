@@ -22,12 +22,12 @@
                                     :key="cart.id"
                                 >
                                     <div class="product-image">
-                                        <img :src="cart.image" :alt="cart.name" />
+                                        <img :src="cart.image" :alt="cart.namel" />
                                     </div>
 
                                     <div class="product-content">
-                                        <h3><a href="#">{{cart.name}}</a></h3>
-                                        <span>Blue / XS</span>
+                                        <h3><a href="#">{{cart.namel}}</a></h3>
+                                        <span>{{cart.namel}}</span>
                                         <div class="product-price">
                                             <span>{{cart.quantity}}</span>
                                             <span>x</span>
@@ -45,7 +45,6 @@
                             </div>
 
                             <div @click="closeSidebarPanel" class="product-cart-btn">
-                                <nuxt-link to="/checkout" class="btn btn-primary">Proceed to Checkout</nuxt-link>
                                 <nuxt-link to="/cart" class="btn btn-light">View Shopping Cart</nuxt-link>
                             </div>
                         </div>

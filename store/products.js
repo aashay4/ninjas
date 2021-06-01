@@ -227,7 +227,7 @@ const state = () => ({
         {
             id: 8,
             size: 17.3,
-            gpu: 'NVIDIA RTX 2060',
+            gpu: 'NVIDIA GeForce RTX 2060',
             batterylife: 5,
             purpose: 'All-purpose',
             namel: 'Lenovo Legion Y540',
@@ -518,7 +518,7 @@ const state = () => ({
             size: 17.3,
             purpose: 'Gaming',
             company: 'Dell',
-            gpu: 'Nvidia Geforce RTX 2070',
+            gpu: 'NVIDIA GeForce RTX 2070',
             batterylife: 3,
             namel: 'Alienware m17 R3',
             bestSellers: true,

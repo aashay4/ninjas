@@ -26,7 +26,7 @@ export default {
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: '' },
-        { hid: 'robots', name: 'robots', content: 'noindex,bofollow' }
+        { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
       ],
       link: [
   {rel: 'canonical', href: 'https://laptops.ninja/cart' }

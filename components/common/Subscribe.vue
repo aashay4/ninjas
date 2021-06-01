@@ -13,7 +13,7 @@
                 <div class="col-lg-6">
                     <form class="newsletter-form" v-on:submit.prevent>
                         <input type="email" class="form-control" placeholder="Enter your email address" id="email" v-model="subscriptions.email" autocomplete="off">
-                        <button @click="subscribe" type="submit">Subscribe!</button>
+                        <button type="submit">Subscribe!</button>
                     </form>
                 </div>
             </div>
@@ -32,7 +32,7 @@ export default {
         }
     },
     methods: {
-        
+
         validateEmail(email)
         {
             if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))

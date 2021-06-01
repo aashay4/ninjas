@@ -13,17 +13,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="blog-details">
-                            <div class="article-content">
-                                <ul class="entry-meta">
-                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
-                                    </ul>
-
-                                <h1>Best Dell laptops 2021</h1>
-                                  </div>
-                        </div>
-                        <div class="">
+                      <div class="section-title without-bg">
+                      <h2><span class="dot"></span> Trending Dell Laptops</h2>
+                    </div>
+                    <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
 
@@ -59,15 +52,8 @@
                                                 </h3>
                                                 <b-collapse visible id="collapse-2">
                                                     <ul class="collections-list-row">
-                                                        <li><input type="radio" id="HP" value="HP" v-model="company"> <label for="HP">HP</label></li>
-                                                        <li><input type="radio" id="Apple" value="Apple" v-model="company"> <label for="Apple">Apple</label></li>
                                                         <li><input type="radio" id="Dell" value="Dell" v-model="company"> <label for="Dell">Dell</label></li>
-                                                        <li><input type="radio" id="Lenovo" value="Lenovo" v-model="company"> <label for="Lenovo">Lenovo</label></li>
-                                                        <li><input type="radio" id="Razer" value="Razer" v-model="company"> <label for="Razer">Razer</label></li>
-                                                        <li><input type="radio" id="Asus" value="Asus" v-model="company"> <label for="Asus">Asus</label></li>
-                                                        <li><input type="radio" id="Acer" value="Acer" v-model="company"> <label for="Acer">Acer</label></li>
-                                                        <li><input type="radio" id="No Preference" value="No Preference" v-model="company"> <label for="No Preference">No Preference</label></li>
-                                                    </ul>
+                                                          </ul>
                                                 </b-collapse>
                                             </div>
 

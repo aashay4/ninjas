@@ -13,16 +13,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="blog-details">
-                            <div class="article-content">
-                                <ul class="entry-meta">
-                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
-                                    </ul>
-
-                                <h1>Laptop Finder Tool</h1>
-                                  </div>
-                        </div>
+                      <div class="section-title without-bg">
+                      <h2><span class="dot"></span> Laptop Finder Tool</h2>
+                    </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
@@ -293,7 +286,40 @@
                         </div>
                     </div>
 
-                    <popularposts />
+                    <div class="col-lg-12 col-md-12"><br>
+                        <aside class="widget-area" id="secondary">
+                            <section class="widget widget_comero_posts_thumb">
+                                <h3 class="widget-title">Popular Posts</h3>
+
+                                <article class="item">
+                                    <nuxt-link to="/blog-details" class="thumb">
+                                        <span class="fullimage cover bg1" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">May 4, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/best-budget-laptops">Best Budget Laptops</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+
+                                <article class="item">
+                                    <nuxt-link to="/hp" class="thumb">
+                                        <span class="fullimage cover bg2" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">May 4, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/hp">Best HP Laptops</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+                                  </section>
+
+                                </aside>
+                    </div>
                 </div>
             </div>
         </section>
@@ -301,14 +327,12 @@
 </template>
 
 <script>
-import popularposts from '../components/landing-one/popularposts';
 import Sidebar from '../components/all-products/Sidebar';
 import QuckView from '../components/modals/QuckView';
 import { mutations } from '../utils/sidebar-util';
 import ProductItem from '../components/landing-one/ProductItem';
   export default {
     components: {
-      popularposts,
       Sidebar,
       QuckView,
       ProductItem
@@ -330,7 +354,7 @@ import ProductItem from '../components/landing-one/ProductItem';
     return {
       company: 'No Preference',
       purpose: 'No Preference',
-      price: 'No Preference',
+      price: 1000,
       size: 'No Preference',
       os: 'No Preference',
       processor: 'No Preference'
