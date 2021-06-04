@@ -4,7 +4,7 @@
             <div class="container">
                 <ul>
                     <li><nuxt-link to="/">Home</nuxt-link></li>
-                    <li>Best Gaming Laptops</li>
+                    <li>Best Lightweight Laptop</li>
                 </ul>
             </div>
         </div>
@@ -13,12 +13,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
+                        <div class="blog-details">
+                            <div class="article-content">
+                                <ul class="entry-meta">
+                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
+                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
+                                    </ul>
+
+                                <h1>Light Laptops</h1>
+                                <blockquote class="wp-block-quote">
+                                    <p>A laptop with less than 4 pounds of weight is considered a lightweight laptop. These laptops are compact. If you are a frequent traveler or you have to carry your laptop while traveling then these laptops can be the right choice. With the help of the tool below, you can choose the best lightweight laptop by specifying RAM, company, purpose, and many other options.</p>
+                                </blockquote>
+                                    </div>
+                        </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
-                                <div class="section-title without-bg">
-                                <h2><span class="dot"></span> Gaming Laptops</h2>
-                              </div>
+                                  <div class="section-title">
+                                      <h2><span class="dot"></span> Choose the best lightweight laptop</h2>
+                                  </div>
+
                                   <div class="row">
                                     <div class="col-lg-4 col-md-12">
                                         <div class="woocommerce-sidebar-area">
@@ -73,6 +87,10 @@
                                                 <b-collapse invisible id="collapse-3">
                                                     <ul class="brands-list-row">
                       <li><input type="radio" id="Gaming" value="Gaming" v-model="purpose"> <label for="Gaming">Gaming</label></li>
+                      <li><input type="radio" id="High-performance" value="High-performance" v-model="purpose"> <label for="High-performance">High-performance (Video/Designing)</label></li>
+                      <li><input type="radio" id="All-purpose" value="All-purpose" v-model="purpose"> <label for="All-purpose">All-purpose (Business/Student/Writing/Programming)</label></li>
+                      <li><input type="radio" id="General-purpose" value="General-purpose" v-model="purpose"> <label for="All-purpose">General-purpose (Kids/Cheap/Daily-use)</label></li>
+                      <li><input type="radio" id="No Preference" value="No Preference" v-model="purpose"> <label for="No Preference">No Preference</label></li>
                                                     </ul>
                                                 </b-collapse>
                                             </div>
@@ -118,8 +136,7 @@
                                                     </ul>
                                                 </b-collapse>
                                             </div>
-
-                                              </div>
+                                          </div>
                                     </div>
                                       <div class="col-lg-8 col-md-12">
                                           <div class="products-filter-options">
@@ -190,6 +207,7 @@
                             </div>
                         </div>
                     </div>
+
                     <popularposts />
                 </div>
             </div>
@@ -212,21 +230,21 @@ import ProductItem from '../components/landing-one/ProductItem';
     },
     head () {
     return {
-      title: 'Best gaming laptops 2021',
+      title: 'Best light laptops 2021',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'Collection of the best gaming laptops.' },
+        { hid: 'description', name: 'description', content: 'Checkout the light laptops with less then 4 Pounds weight.' },
         { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
- {rel: 'canonical', href: 'https://laptops.ninja/best-gaming-laptops' }
+ {rel: 'canonical', href: 'https://laptops.ninja/best-lightweight-laptop' }
 ]
     }
   },
   data() {
     return {
       company: 'No Preference',
-      purpose: 'Gaming',
+      purpose: 'No Preference',
       price: 'No Preference',
       size: 'No Preference'
     }
@@ -263,64 +281,64 @@ import ProductItem from '../components/landing-one/ProductItem';
   computed: {
       products(){
         if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.size <= this.size && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.size <= this.size && product.purpose === this.purpose && product.weight <= 4)
             }
         else if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose === 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.size <= this.size)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.size <= this.size && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.price <= this.price && product.size <= this.size)
+          return this.$store.state.products.all.filter(product => product.price <= this.price && product.size <= this.size && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.price <= this.price)
+          return this.$store.state.products.all.filter(product => product.price <= this.price && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose === 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.size <= this.size)
+          return this.$store.state.products.all.filter(product => product.size <= this.size && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.size <= this.size)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.size <= this.size && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose === 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.size <= this.size)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.size <= this.size && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.size <= this.size)
+          return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.size <= this.size && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.price <= this.price && product.size <= this.size && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.price <= this.price && product.size <= this.size && product.purpose === this.purpose && product.weight <= 4)
             }
         else if(this.company !== 'No Preference' && this.purpose === 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.price <= this.price && product.company === this.company && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.price <= this.price && product.company === this.company && product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.price <= this.price && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.price <= this.price && product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.purpose === this.purpose)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.purpose === this.purpose && product.weight <= 4)
         }
         else if(this.company !== 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference'){
-          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price)
+          return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price && product.weight <= 4)
         }
         else{
-          return this.$store.state.products.all
+          return this.$store.state.products.all.filter(product => product.weight <= 4)
         }
       }
   },

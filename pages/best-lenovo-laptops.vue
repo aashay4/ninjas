@@ -50,7 +50,7 @@
 
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
-                                                <b-collapse visible id="collapse-2">
+                                                <b-collapse invisible id="collapse-2">
                                                     <ul class="collections-list-row">
                                                         <li><input type="radio" id="HP" value="HP" v-model="company"> <label for="HP">HP</label></li>
                                                         <li><input type="radio" id="Apple" value="Apple" v-model="company"> <label for="Apple">Apple</label></li>
@@ -71,7 +71,7 @@
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
 
-                                                <b-collapse visible id="collapse-3">
+                                                <b-collapse invisible id="collapse-3">
                                                     <ul class="brands-list-row">
                       <li><input type="radio" id="Gaming" value="Gaming" v-model="purpose"> <label for="Gaming">Gaming</label></li>
                       <li><input type="radio" id="High-performance" value="High-performance" v-model="purpose"> <label for="High-performance">High-performance (Video/Designing)</label></li>
@@ -89,7 +89,7 @@
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
 
-                                                <b-collapse visible id="collapse-4">
+                                                <b-collapse invisible id="collapse-4">
                                                     <ul class="size-list-row">
                   <li><input type="radio" id="11" value="11" v-model="size"> <label for="11">11</label></li>
                   <li><input type="radio" id="12" value="12" v-model="size"> <label for="12">12</label></li>
@@ -109,7 +109,7 @@
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
 
-                                                <b-collapse visible id="collapse-5">
+                                                <b-collapse invisible id="collapse-5">
                                                     <ul class="price-list-row">
                   <li><input type="radio" id="100" value="100" v-model="price"> <label for="100">< $100</label></li>
                   <li><input type="radio" id="200" value="200" v-model="price"> <label for="200">< $200</label></li>
@@ -122,64 +122,6 @@
                   <li><input type="radio" id="No Preference" value="No Preference" v-model="price"> <label for="No Preference">No Preference</label></li>
                                                     </ul>
                                                 </b-collapse>
-                                            </div>
-
-
-                                            <div class="collapse-widget aside-products-widget">
-                                                <h3 class="aside-widget-title">
-                                                    Popular LAPTOPS
-                                                </h3>
-
-                                                <div class="aside-single-products">
-                                                    <div class="products-image">
-                                                        <a href="#">
-                                                            <img src="../assets/img/Apple_MacBook_pro_13.jpg" alt="image">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="products-content">
-                                                        <span><a href="#">Apple Laptop</a></span>
-                                                        <h3><a href="#">Apple Macbook Pro 13</a></h3>
-
-                                                        <div class="product-price">
-                                                            <span class="new-price">$1799</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="aside-single-products">
-                                                    <div class="products-image">
-                                                        <a href="#">
-                                                            <img src="../assets/img/alienware.jpg" alt="image">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="products-content">
-                                                        <span><a href="#">Dell Laptop</a></span>
-                                                        <h3><a href="#">Alienware m17 R3</a></h3>
-
-                                                        <div class="product-price">
-                                                            <span class="new-price">$3529</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="aside-single-products">
-                                                    <div class="products-image">
-                                                        <a href="#">
-                                                            <img src="../assets/img/ACER_NITRO_5.jpg" alt="image">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="products-content">
-                                                        <span><a href="#">Acer Laptop</a></span>
-                                                        <h3><a href="#">Acer Nitro 5</a></h3>
-
-                                                        <div class="product-price">
-                                                            <span class="new-price">$680</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
 
                                               </div>
@@ -253,7 +195,6 @@
                             </div>
                         </div>
                     </div>
-                    <popularposts />
                 </div>
             </div>
         </section>
@@ -261,14 +202,12 @@
 </template>
 
 <script>
-import popularposts from '../components/landing-one/popularposts';
 import Sidebar from '../components/all-products/Sidebar';
 import QuckView from '../components/modals/QuckView';
 import { mutations } from '../utils/sidebar-util';
 import ProductItem from '../components/landing-one/ProductItem';
   export default {
     components: {
-      popularposts,
       Sidebar,
       QuckView,
       ProductItem

@@ -49,7 +49,10 @@
                     class="btn btn-light"
                     @click="addToCart(product)">
                     Add to Cart
-                </a>
+                </a><br>
+                <div>
+                    <a :href="product.link" class="btn btn-light">Buy it now!</a>
+                  </div>
             </div>
         </div>
     </div>
@@ -88,7 +91,8 @@ export default {
                 star2: item.star2,
                 star3: item.star3,
                 star4: item.star4,
-                star5: item.star5
+                star5: item.star5,
+                link: item.link
             }]
 
             if(this.cart.length > 0){

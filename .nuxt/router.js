@@ -9,6 +9,7 @@ const _083018aa = () => interopDefault(import('..\\pages\\best-budget-laptops.vu
 const _b9a73770 = () => interopDefault(import('..\\pages\\best-chromebook-laptops.vue' /* webpackChunkName: "pages_best-chromebook-laptops" */))
 const _07c08e94 = () => interopDefault(import('..\\pages\\best-gaming-laptops.vue' /* webpackChunkName: "pages_best-gaming-laptops" */))
 const _be0364d0 = () => interopDefault(import('..\\pages\\best-lenovo-laptops.vue' /* webpackChunkName: "pages_best-lenovo-laptops" */))
+const _46221e52 = () => interopDefault(import('..\\pages\\best-lightweight-laptop.vue' /* webpackChunkName: "pages_best-lightweight-laptop" */))
 const _38ac2086 = () => interopDefault(import('..\\pages\\best-windows-laptops.vue' /* webpackChunkName: "pages_best-windows-laptops" */))
 const _9b971000 = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
 const _5c176770 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages_contact" */))
@@ -60,6 +61,10 @@ export const routerOptions = {
     path: "/best-lenovo-laptops",
     component: _be0364d0,
     name: "best-lenovo-laptops"
+  }, {
+    path: "/best-lightweight-laptop",
+    component: _46221e52,
+    name: "best-lightweight-laptop"
   }, {
     path: "/best-windows-laptops",
     component: _38ac2086,

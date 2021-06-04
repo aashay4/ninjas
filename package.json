@@ -17,6 +17,7 @@
     "bootstrap-vue": "^2.0.0",
     "express": "^4.17.1",
     "nuxt": "^2.0.0",
+    "nuxt-lazy-load": "^1.2.6",
     "vue-backtotop": "^1.6.1",
     "vue-carousel": "^0.18.0",
     "vue-script2": "^2.1.0",

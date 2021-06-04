@@ -43,12 +43,16 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    [ 'nuxt-lazy-load', {
+      images: true
+    }
     // Doc: https://axios.nuxtjs.org/usage
-  ],
+  ]
   /*
   /*
   ** Global CSS
   */
+],
   css: [
     './assets/scss/styles/animate.min.css',
     './assets/scss/styles/fontawesome.min.css',

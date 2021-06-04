@@ -158,64 +158,6 @@
                                                 </b-collapse>
                                             </div>
 
-
-                                            <div class="collapse-widget aside-products-widget">
-                                                <h3 class="aside-widget-title">
-                                                    Popular LAPTOPS
-                                                </h3>
-
-                                                <div class="aside-single-products">
-                                                    <div class="products-image">
-                                                        <a href="#">
-                                                            <img src="../assets/img/Apple_MacBook_pro_13.jpg" alt="image">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="products-content">
-                                                        <span><a href="#">Apple Laptop</a></span>
-                                                        <h3><a href="#">Apple Macbook Pro 13</a></h3>
-
-                                                        <div class="product-price">
-                                                            <span class="new-price">$1799</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="aside-single-products">
-                                                    <div class="products-image">
-                                                        <a href="#">
-                                                            <img src="../assets/img/alienware.jpg" alt="image">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="products-content">
-                                                        <span><a href="#">Dell Laptop</a></span>
-                                                        <h3><a href="#">Alienware m17 R3</a></h3>
-
-                                                        <div class="product-price">
-                                                            <span class="new-price">$3529</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="aside-single-products">
-                                                    <div class="products-image">
-                                                        <a href="#">
-                                                            <img src="../assets/img/ACER_NITRO_5.jpg" alt="image">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="products-content">
-                                                        <span><a href="#">Acer Laptop</a></span>
-                                                        <h3><a href="#">Acer Nitro 5</a></h3>
-
-                                                        <div class="product-price">
-                                                            <span class="new-price">$680</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                               </div>
                                     </div>
                                       <div class="col-lg-8 col-md-12">
@@ -288,7 +230,6 @@
                         </div>
                     </div>
 
-                    <popularposts />
                 </div>
             </div>
         </section>
@@ -296,14 +237,12 @@
 </template>
 
 <script>
-import popularposts from '../components/landing-one/popularposts';
 import Sidebar from '../components/all-products/Sidebar';
 import QuckView from '../components/modals/QuckView';
 import { mutations } from '../utils/sidebar-util';
 import ProductItem from '../components/landing-one/ProductItem';
   export default {
     components: {
-      popularposts,
       Sidebar,
       QuckView,
       ProductItem
