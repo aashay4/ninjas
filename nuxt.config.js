@@ -8,7 +8,7 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Bolster - eCommerce Nuxt.js/Vue.js Template',
+    title: '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -43,11 +43,6 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    [ 'nuxt-lazy-load', {
-      images: true
-    }
-    // Doc: https://axios.nuxtjs.org/usage
-  ]
   /*
   /*
   ** Global CSS
