@@ -15,16 +15,12 @@
                             <ul class="navbar-nav">
 
                                 <li class="nav-item">
-                                    <nuxt-link to="/" class="nav-link">Home |</nuxt-link>
-                                </li>
-
-                                <li class="nav-item">
                                     <nuxt-link to="/laptop-finder" class="nav-link"> Laptop Finder |</nuxt-link>
                                 </li>
                                 <li class="nav-item">
                                     <nuxt-link to="/msi" class="nav-link"> MSI |</nuxt-link>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <nuxt-link to="/dell" class="nav-link"> Dell |</nuxt-link>
                                 </li>
@@ -39,7 +35,10 @@
                                     <nuxt-link to="/best-budget-laptops" class="nav-link"> Budget Laptops |</nuxt-link>
                                 </li>
                                 <li class="nav-item">
-                                    <nuxt-link to="/best-gaming-laptops" class="nav-link"> Gaming Laptops</nuxt-link>
+                                    <nuxt-link to="/best-gaming-laptops" class="nav-link"> Gaming Laptops |</nuxt-link>
+                                </li>
+                                <li class="nav-item">
+                                    <nuxt-link to="/best-lightweight-laptop" class="nav-link">Light Laptops </nuxt-link>
                                 </li>
                             </ul>
 

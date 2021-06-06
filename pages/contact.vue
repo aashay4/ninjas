@@ -22,7 +22,7 @@
                             <p>Have a question? You may find an answer in our FAQs. But you can also contact us.</p>
 
                             <ul class="contact-list">
-                                <li><i class="far fa-envelope"></i> Email Us: <a href="#">support@laptops.ninja</a></li>
+                                <li><i class="far fa-envelope"></i> Email Us: <a href="mailto:support@laptops.ninja">support@laptops.ninja</a></li>
                             </ul>
 
                             <h3>Opening Hours:</h3>

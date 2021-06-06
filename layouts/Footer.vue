@@ -17,7 +17,7 @@
                         <h3>Contact Us</h3>
 
                         <ul class="footer-contact-info">
-                            <li><i class="far fa-envelope"></i> Email Us: <a href="#">support@laptops.ninja</a></li>
+                            <li><i class="far fa-envelope"></i> Email Us: <a href="mailto:support@laptops.ninja">support@laptops.ninja</a></li>
                         </ul>
                     </div>
                 </div>
