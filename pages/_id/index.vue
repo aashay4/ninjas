@@ -61,7 +61,8 @@ export default {
       title: this.product.namel,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: this.product.namel + ' review and specs'}
+        { hid: 'description', name: 'description', content: this.product.namel + ' review and specs'},
+        { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
  {rel: 'canonical', href: 'https://laptops.ninja/' + this.product.id }
