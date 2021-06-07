@@ -15,9 +15,8 @@
         <section class="products-details-area ptb-60">
             <div class="container">
                 <div class="row">
-                    <img :src="product.bigimage" :alt="product.namel" style="align: center">
+                    <img :src="product.bigimage" :data-url="source" :alt="product.namel" style="align: center">
                     <Details
-                    v-if="elementVisible === true"
                         :id = "product.id"
                         :namel = "product.namel"
                         :price = "product.price"
@@ -31,7 +30,6 @@
                         :os = "product.os"
                     />
                     <DetailsInfo
-                    v-if="elementVisible === true"
                     :description = "product.description"
                     :namel = "product.namel"
                     :ram = "product.ram"
@@ -43,7 +41,6 @@
                     :gpu = "product.gpu"
                      />
                     <RelatedProducts
-                    v-if="elementVisible === true"
                     :id = "product.id" />
                 </div>
             </div>
@@ -75,13 +72,9 @@ export default {
   },
     data(){
         return {
-            id: this.$route.params.id,
-            elementVisible: false
+            id: this.$route.params.id
         }
     },
-    mounted: function () {
-          setTimeout(() => { this.elementVisible = true }, 3500)
-      },
     computed: {
         product(){
             return this.$store.state.products.all.find(product => product.id === parseInt(this.id));
