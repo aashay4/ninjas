@@ -17,6 +17,7 @@
                 <div class="row">
                     <img :src="product.bigimage" :alt="product.namel" style="align: center">
                     <Details
+                    v-if="elementVisible === true"
                         :id = "product.id"
                         :namel = "product.namel"
                         :price = "product.price"
@@ -30,6 +31,7 @@
                         :os = "product.os"
                     />
                     <DetailsInfo
+                    v-if="elementVisible === true"
                     :description = "product.description"
                     :namel = "product.namel"
                     :ram = "product.ram"
@@ -40,7 +42,9 @@
                     :batterylife = "product.batterylife"
                     :gpu = "product.gpu"
                      />
-                    <RelatedProducts :id = "product.id" />
+                    <RelatedProducts
+                    v-if="elementVisible === true"
+                    :id = "product.id" />
                 </div>
             </div>
         </section>
@@ -71,9 +75,13 @@ export default {
   },
     data(){
         return {
-            id: this.$route.params.id
+            id: this.$route.params.id,
+            elementVisible: false
         }
     },
+    mounted: function () {
+          setTimeout(() => { this.elementVisible = true }, 500)
+      },
     computed: {
         product(){
             return this.$store.state.products.all.find(product => product.id === parseInt(this.id));
