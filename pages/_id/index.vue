@@ -80,7 +80,7 @@ export default {
         }
     },
     mounted: function () {
-          setTimeout(() => { this.elementVisible = true }, 500)
+          setTimeout(() => { this.elementVisible = true }, 2500)
       },
     computed: {
         product(){
