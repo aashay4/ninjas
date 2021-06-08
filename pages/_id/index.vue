@@ -15,7 +15,15 @@
         <section class="products-details-area ptb-60">
             <div class="container">
                 <div class="row">
-                    <img class="infeed" :src="product.image" :alt="product.namel" style="align: center">
+                  <!--  <img class="infeed" :src="product.bigimage" :alt="product.namel" style="align: center"> -->
+                  <div class="col-lg-6 col-md-6">
+                      <div class="products-page-gallery">
+                          <div class="product-page-gallery-main">
+
+                                  <img :src="product.bigimage" :alt="product.namel">
+                          </div>
+                      </div>
+                  </div>
                     <Details
                         :id = "product.id"
                         :namel = "product.namel"
