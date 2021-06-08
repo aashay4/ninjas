@@ -15,7 +15,7 @@
         <section class="products-details-area ptb-60">
             <div class="container">
                 <div class="row">
-                    <img :src="product.bigimage" :data-url="source" :alt="product.namel" style="align: center">
+                    <img class="infeed" :src="product.bigimage" :alt="product.namel" style="align: center">
                     <Details
                         :id = "product.id"
                         :namel = "product.namel"
@@ -82,3 +82,20 @@ export default {
     }
 }
 </script>
+<style media="screen" scoped>
+@media (min-width: 350px) {
+  .infeed {
+    height: 290px;
+  }
+}
+@media (min-width: 500px) {
+  .infeed {
+    height: 250px;
+  }
+}
+@media (min-width: 800px) {
+  .infeed {
+    height: 340px;
+  }
+}
+</style>
