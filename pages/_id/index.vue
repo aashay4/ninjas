@@ -20,7 +20,7 @@
                       <div class="products-page-gallery">
                           <div class="product-page-gallery-main">
 
-                                  <img :src="product.bigimage" :alt="product.namel">
+                                  <img class="infeed" :src="product.bigimage" :alt="product.namel">
                           </div>
                       </div>
                   </div>
@@ -91,19 +91,9 @@ export default {
 }
 </script>
 <style media="screen" scoped>
-@media (min-width: 320px) {
+@media (max-width: 370px) {
   .infeed {
     height: 290px;
-  }
-}
-@media (min-width: 500px) {
-  .infeed {
-    height: 250px;
-  }
-}
-@media (min-width: 800px) {
-  .infeed {
-    height: 340px;
   }
 }
 </style>
