@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                   <!--  <img class="infeed" :src="product.bigimage" :alt="product.namel" style="align: center"> -->
-                  <div class="col-lg-6 col-md-6">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
                       <div class="products-page-gallery">
                           <div class="product-page-gallery-main">
 
