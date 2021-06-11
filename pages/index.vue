@@ -18,6 +18,7 @@
         <Offerr />
         <TrendingProducts />
         <BestSellers />
+        <Offer />
 
         <div class="">
 
@@ -220,6 +221,7 @@ import Offerr from '../components/landing-one/Offer';
 import Facility from '../components/diction-two/Facility';
 import TrendingProducts from '../components/diction-two/TrendingProducts';
 import BestSellers from '../components/diction-two/BestSellers';
+import Offer from '../components/diction-two/Offer';
 import Subscribe from '../components/common/Subscribe';
 import Sidebar from '../components/all-products/Sidebar';
 import QuckView from '../components/modals/QuckView';
@@ -230,6 +232,7 @@ export default {
         Facility,
         TrendingProducts,
         BestSellers,
+        Offer,
         Offerr,
         Subscribe,
         QuckView,
