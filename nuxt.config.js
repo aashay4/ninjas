@@ -43,6 +43,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    'nuxt-lazy-load',
   /*
   /*
   ** Global CSS
