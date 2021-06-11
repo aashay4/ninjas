@@ -36,7 +36,7 @@
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
 
-                                <b-collapse visible id="collapse-1" class="selected-filters-wrap-list">
+                                <b-collapse invisible id="collapse-1" class="selected-filters-wrap-list">
                                     <ul>
                                         <li><a @click.prevent="clearpurpose()" v-if="purpose !== 'No Preference'">{{purpose}}</a></li>
                                         <li><a @click.prevent="clearprocessor()" v-if="processor !== 'No Preference'">{{processor}}</a></li>
@@ -58,7 +58,7 @@
 
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
-                                <b-collapse visible id="collapse-2">
+                                <b-collapse invisible id="collapse-2">
                                     <ul class="collections-list-row">
                                         <li><input type="radio" id="HP" value="HP" v-model="company"> <label for="HP">HP</label></li>
                                         <li><input type="radio" id="Apple" value="Apple" v-model="company"> <label for="Apple">Apple</label></li>
@@ -78,7 +78,7 @@
 
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
-                                <b-collapse visible id="collapse-7">
+                                <b-collapse invisible id="collapse-7">
                                     <ul class="collections-list-row">
                                         <li><input type="radio" id="MacOS" value="MacOS" v-model="os"> <label for="MacOS">MacOS</label></li>
                                         <li><input type="radio" id="Windows 10" value="Windows 10" v-model="os"> <label for="MacOS">Windows</label></li>
@@ -95,7 +95,7 @@
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
 
-                                <b-collapse visible id="collapse-3">
+                                <b-collapse invisible id="collapse-3">
                                     <ul class="brands-list-row">
       <li><input type="radio" id="Gaming" value="Gaming" v-model="purpose"> <label for="Gaming">Gaming</label></li>
       <li><input type="radio" id="High-performance" value="High-performance" v-model="purpose"> <label for="High-performance">High-performance (Video/Designing)</label></li>
@@ -113,7 +113,7 @@
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
 
-                                <b-collapse visible id="collapse-4">
+                                <b-collapse invisible id="collapse-4">
                                     <ul class="size-list-row">
   <li><input type="radio" id="11" value="11" v-model="size"> <label for="11">11</label></li>
   <li><input type="radio" id="12" value="12" v-model="size"> <label for="12">12</label></li>
@@ -133,7 +133,7 @@
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
 
-                                <b-collapse visible id="collapse-5">
+                                <b-collapse invisible id="collapse-5">
                                     <ul class="price-list-row">
   <li><input type="radio" id="100" value="100" v-model="price"> <label for="100">< $100</label></li>
   <li><input type="radio" id="200" value="200" v-model="price"> <label for="200">< $200</label></li>
@@ -154,7 +154,7 @@
                                     <i class="fas fa-angle-up"></i>
                                 </h3>
 
-                                <b-collapse visible id="collapse-6">
+                                <b-collapse invisible id="collapse-6">
                                     <ul class="price-list-row">
   <li><input type="radio" id="processor" value="Intel" v-model="processor"> <label for="100">Intel</label></li>
   <li><input type="radio" id="processor" value="Ryzen" v-model="processor"> <label for="200">Ryzen</label></li>
