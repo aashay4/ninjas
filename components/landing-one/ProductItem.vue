@@ -49,10 +49,9 @@
                     class="btn btn-light"
                     @click="addToCart(product)">
                     Add to Cart
-                </a><br>
-                <div>
-                    <a :href="product.link" class="btn btn-light">Buy it now!</a>
-                  </div>
+                </a><hr>
+                <div class="item">
+                    <a :href="product.link" class="btn btn-light">Buy it now!</a></div>
             </div>
         </div>
     </div>

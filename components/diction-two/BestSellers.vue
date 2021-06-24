@@ -4,7 +4,7 @@
         <section class="best-sellers-area pb-60">
             <div class="container">
                 <div class="section-title without-bg">
-                    <h2><span class="dot"></span> Best Gaming Laptops</h2>
+                    <h2><span class="dot"></span> Best Performance Laptops</h2>
                 </div>
 
                 <div class="row">
