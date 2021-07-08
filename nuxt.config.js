@@ -43,11 +43,15 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/google-adsense',
   /*
   /*
   ** Global CSS
   */
 ],
+'google-adsense': {
+      id: 'ca-pub-6829148792481216'
+    },
   css: [
     './assets/scss/styles/animate.min.css',
     './assets/scss/styles/fontawesome.min.css',
