@@ -17,7 +17,6 @@
                             <div class="article-content">
                                 <ul class="entry-meta">
                                   <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
                                     </ul>
 
                                 <h1>Laptops for designing students and sketchup artists</h1>
