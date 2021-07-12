@@ -2,7 +2,7 @@ const state = () => ({
     all: [
         {
             id: 1,
-            purpose: 'General-purpose',
+            purpose: 'General-purpose, Designing',
             size: 13.3,
             namel: 'Dell XPS 13',
             gpu: 'Intel UHD Graphics',
@@ -163,7 +163,7 @@ const state = () => ({
         {
             id: 6,
             size: 15.6,
-            purpose: 'Gaming',
+            purpose: 'Gaming, Designing',
             gpu: 'NVM Express',
             batterylife: 8,
             namel: 'MSI GP65 Leopard',
@@ -261,7 +261,7 @@ const state = () => ({
             size: 14,
             gpu: 'NVIDIA GeForce RTX 2060',
             batterylife: 8,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Designing',
             namel: 'Asus Rog Zephyrus G14',
             price: 1307,
             offer: false,
@@ -356,7 +356,7 @@ const state = () => ({
         {
             id: 12,
             size: 15.6,
-            purpose: 'High-performance',
+            purpose: 'High-performance, Designing',
             company: 'Dell',
             gpu: 'Nvidia GeForce GTX 1650 Ti',
             batterylife: 11,
@@ -452,7 +452,7 @@ const state = () => ({
         {
             id: 15,
             size: 13.3,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Designing',
             company: 'Apple',
             gpu: 'Intel Iris Plus',
             batterylife: 10,
@@ -964,7 +964,7 @@ const state = () => ({
         {
             id: 30,
             size: 13.3,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Designing',
             company: 'Asus',
             namel: 'Asus ZenBook 13 UX333FA',
             price: 1507.96,
@@ -1060,7 +1060,7 @@ const state = () => ({
         {
             id: 33,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Designing',
             company: 'Asus',
             namel: 'Asus VivoBook S15',
             price: 879,
@@ -1572,7 +1572,7 @@ const state = () => ({
         {
             id: 49,
             size: 15.6,
-            purpose: 'General-purpose',
+            purpose: 'General-purpose, Designing',
             company: 'Dell',
             gpu: 'Intel HD Graphics 610',
             batterylife: 2.5,

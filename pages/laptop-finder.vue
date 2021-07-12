@@ -399,7 +399,7 @@ import ProductItem from '../components/landing-one/ProductItem';
   computed: {
       products(){
         if(this.os !== 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor !== 'No Preference'){
-            return this.$store.state.products.all.filter(product => product.company === this.company && product.os === this.os && product.price <= this.price && product.size <= this.size && product.purpose === this.purpose && product.processor.indexOf(this.processor) !== -1)
+            return this.$store.state.products.all.filter(product => product.company === this.company && product.os === this.os && product.price <= this.price && product.size <= this.size && product.purpose.indexOf(this.purpose) !== -1 && product.processor.indexOf(this.processor) !== -1)
             }
             else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose === 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
               return this.$store.state.products.all.filter(product => product.os === this.os)
@@ -408,43 +408,43 @@ import ProductItem from '../components/landing-one/ProductItem';
                   return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company)
                 }
                 else if(this.os !== 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose === this.purpose)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose.indexOf(this.purpose) !== -1)
                 }
                 else if(this.os !== 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose === this.purpose && product.price <= this.price)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price)
                 }
                 else if(this.os !== 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size)
                 }
                 else if(this.os !== 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose === this.purpose && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.size <= this.size)
                 }
                 else if(this.os !== 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose === this.purpose && product.price <= this.price)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose && product.price <= this.price)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor !== 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose && product.price <= this.price)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor !== 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
+                  return this.$store.state.products.all.filter(product => product.os === this.os && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os !== 'No Preference' && this.company === 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
                   return this.$store.state.products.all.filter(product => product.os === this.os && product.price <= this.price)
@@ -468,16 +468,16 @@ import ProductItem from '../components/landing-one/ProductItem';
                   return this.$store.state.products.all.filter(product => product.company === this.company)
                 }
                 else if(this.os === 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose)
+                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose.indexOf(this.purpose) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.price <= this.price)
+                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price)
                 }
                 else if(this.os === 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size)
                 }
                 else if(this.os === 'No Preference' && this.company !== 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor !== 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose === this.purpose && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
+                  return this.$store.state.products.all.filter(product => product.company === this.company && product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company !== 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
                   return this.$store.state.products.all.filter(product => product.company === this.company && product.price <= this.price)
@@ -498,28 +498,28 @@ import ProductItem from '../components/landing-one/ProductItem';
                   return this.$store.state.products.all.filter(product => product.company === this.company && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.price <= this.price)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.price <= this.price && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price !== 'No Preference' && this.size !== 'No Preference' && this.processor !== 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.price <= this.price && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.size <= this.size)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference' && this.processor !== 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.size <= this.size && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size !== 'No Preference' && this.processor === 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.size <= this.size)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.size <= this.size)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose !== 'No Preference' && this.price === 'No Preference' && this.size === 'No Preference' && this.processor !== 'No Preference'){
-                  return this.$store.state.products.all.filter(product => product.purpose === this.purpose && product.processor.indexOf(this.processor) !== -1)
+                  return this.$store.state.products.all.filter(product => product.purpose.indexOf(this.purpose) !== -1 && product.processor.indexOf(this.processor) !== -1)
                 }
                 else if(this.os === 'No Preference' && this.company === 'No Preference' && this.purpose === 'No Preference' && this.price !== 'No Preference' && this.size === 'No Preference' && this.processor === 'No Preference'){
                   return this.$store.state.products.all.filter(product => product.price <= this.price)

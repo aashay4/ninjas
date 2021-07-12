@@ -20,38 +20,17 @@
                                     <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
                                     </ul>
 
-                                <h1>The Best Budget Laptops for 2021</h1>
+                                <h1>Laptops for designing students and sketchup artists</h1>
                                 <blockquote class="wp-block-quote">
-                                    <p>The low-cost or affordable laptops can handle everyday computing work and in some cases, you can play a few games as well. Normally budget laptops ring around $500. If you plan for the ChromeOS, you can get a good machine spending fewer bucks.</p>
+                                    <p>To run sketchup software smoothly, you need at least 8 GB RAM. Most of the designing software recommends users to use a laptop with 8 GB of RAM. Here, in this article, we have included all the laptops with 8 GB RAM and the ones which are great performers.</p>
                                 </blockquote>
-                                <p>Now it's possible to get a decent windows laptop at just around $500. You do not need to spend a lot of money to get a good-performing machine. Chromebook laptops in this list are normally cheaper than windows laptops. If your budget is around $200-300 then Chromebooks can be the right choice.</p>
-                                <p>With budget laptops, you should be prepared to compromise on a few specifications. Apart from that, you can get a good-performing machine for just around $500.</p>
-                                <h2>Affordable laptops list</h2>
-                                <p>
-                                <b>1) HP Chromebook 15</b> <br>
-                                <p>If you are looking for a great performance and long-lasting battery life then HP Chromebook 15 is for you. On top of that, this machine offers decent refreshing designs at a very reasonable price. Talking about the features, this HP machine offers an Intel Core i3-8130U processor, 4 GB RAM, and 128 GB storage which is above average for a Chromebook laptop.</p>
-                                <a
-                                    href="https://amzn.to/2Vutlpt"
-                                    class="btn btn-light"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                                <b>2) Acer Chromebook 714</b><br>
-                                <p>You are going to witness a lot of Chromebook laptops in this list. Acer is a great producer of Chromebook laptops. Acer has been widely appreatiated for the performance of different Chromebook laptops. Talking about the Acer Chromebook 714 laptop, it is perticularly built for the daily work for a sub-400 budget. If you add a few bucks, you can buy an acer chromebook with some higher specifications. It offers 8 GB RAM, 64 GB storage, Intel Core i3-8130U processor and Intel UHD Graphics.</p>
-                                <a
-                                    href="https://amzn.to/2KRwDRx"
-                                    class="btn btn-light"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                              </p>
                                   </div>
                         </div>
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
                                   <div class="section-title">
-                                      <h2><span class="dot"></span> Set your budget</h2>
+                                      <h2><span class="dot"></span> Designing and Sketch Up Laptops</h2>
                                   </div>
 
                                   <div class="row">
@@ -107,11 +86,7 @@
 
                                                 <b-collapse visible id="collapse-3">
                                                     <ul class="brands-list-row">
-                      <li><input type="radio" id="Gaming" value="Gaming" v-model="purpose"> <label for="Gaming">Gaming</label></li>
-                      <li><input type="radio" id="High-performance" value="High-performance" v-model="purpose"> <label for="High-performance">High-performance (Video/Designing)</label></li>
-                      <li><input type="radio" id="All-purpose" value="All-purpose" v-model="purpose"> <label for="All-purpose">All-purpose (Business/Student/Writing/Programming)</label></li>
-                      <li><input type="radio" id="General-purpose" value="General-purpose" v-model="purpose"> <label for="All-purpose">General-purpose (Kids/Cheap/Daily-use)</label></li>
-                      <li><input type="radio" id="No Preference" value="No Preference" v-model="purpose"> <label for="No Preference">No Preference</label></li>
+                      <li><input type="radio" id="General-purpose" value="Designing" v-model="purpose"> <label for="All-purpose">Designing/Sketchup</label></li>
                                                     </ul>
                                                 </b-collapse>
                                             </div>
@@ -249,22 +224,22 @@ import ProductItem from '../components/landing-one/ProductItem';
     },
     head () {
     return {
-      title: 'Best budget laptop for 2021',
+      title: 'Designing and sketchup laptops',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: '' },
+        { hid: 'description', name: 'description', content: 'Collection of high-performance laptops for designing and other creative works.' },
         { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
- {rel: 'canonical', href: 'https://laptops.ninja/best-budget-laptops' }
+ {rel: 'canonical', href: 'https://laptops.ninja/designing-sketchup-laptops' }
 ]
     }
   },
   data() {
     return {
       company: 'No Preference',
-      purpose: 'No Preference',
-      price: 500,
+      purpose: 'Designing',
+      price: 'No Preference',
       size: 'No Preference'
     }
   },

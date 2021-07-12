@@ -14,6 +14,7 @@ const _38ac2086 = () => interopDefault(import('..\\pages\\best-windows-laptops.v
 const _9b971000 = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
 const _5c176770 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages_contact" */))
 const _39fe7bbe = () => interopDefault(import('..\\pages\\dell.vue' /* webpackChunkName: "pages_dell" */))
+const _27d22108 = () => interopDefault(import('..\\pages\\designing-sketchup-laptops.vue' /* webpackChunkName: "pages_designing-sketchup-laptops" */))
 const _70099a15 = () => interopDefault(import('..\\pages\\general-purpose-laptops.vue' /* webpackChunkName: "pages_general-purpose-laptops" */))
 const _79467030 = () => interopDefault(import('..\\pages\\hp.vue' /* webpackChunkName: "pages_hp" */))
 const _5c1f0849 = () => interopDefault(import('..\\pages\\laptop-finder.vue' /* webpackChunkName: "pages_laptop-finder" */))
@@ -81,6 +82,10 @@ export const routerOptions = {
     path: "/dell",
     component: _39fe7bbe,
     name: "dell"
+  }, {
+    path: "/designing-sketchup-laptops",
+    component: _27d22108,
+    name: "designing-sketchup-laptops"
   }, {
     path: "/general-purpose-laptops",
     component: _70099a15,
