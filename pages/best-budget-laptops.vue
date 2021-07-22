@@ -26,6 +26,8 @@
                                 </blockquote>
                                 <p>Now it's possible to get a decent windows laptop at just around $500. You do not need to spend a lot of money to get a good-performing machine. Chromebook laptops in this list are normally cheaper than windows laptops. If your budget is around $200-300 then Chromebooks can be the right choice.</p>
                                 <p>With budget laptops, you should be prepared to compromise on a few specifications. Apart from that, you can get a good-performing machine for just around $500.</p>
+                                <p>There are many different laptop manufacturing companies available in the market. Select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. On this list, we focused on including laptops with advanced features and laptops which are affordable as well.</p>
+                                <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid laptops with extra-ordinary RAM and Graphics. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list.</p>
                                 <h2>Affordable laptops list</h2>
                                 <p>
                                 <b>1) HP Chromebook 15</b> <br>
@@ -37,14 +39,31 @@
                                     Buy Now
                                 </a> <hr>
                                 <b>2) Acer Chromebook 714</b><br>
-                                <p>You are going to witness a lot of Chromebook laptops in this list. Acer is a great producer of Chromebook laptops. Acer has been widely appreatiated for the performance of different Chromebook laptops. Talking about the Acer Chromebook 714 laptop, it is perticularly built for the daily work for a sub-400 budget. If you add a few bucks, you can buy an acer chromebook with some higher specifications. It offers 8 GB RAM, 64 GB storage, Intel Core i3-8130U processor and Intel UHD Graphics.</p>
+                                <p>You are going to witness a lot of Chromebook laptops on this list. Acer is a great producer of Chromebook laptops. Acer has been widely appreciated for the performance of different Chromebook laptops. Talking about the Acer Chromebook 714 laptop, it is particularly built for daily work for a sub-400 budget. If you add a few bucks, you can buy an Acer Chromebook with some higher specifications. It offers 8 GB RAM, 64 GB storage, Intel Core i3-8130U processor, and Intel UHD Graphics.</p>
                                 <a
                                     href="https://amzn.to/2KRwDRx"
                                     class="btn btn-light"
                                     >
                                     Buy Now
                                 </a> <hr>
+                                <b>3) Acer Spin 3</b><br>
+                                <p>Love windows? This one is for you. It's a two-in-one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and Windows 10 at under $450 are profitable. The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offers 16 GB RAM and an intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with the $450 model, it is the best budget laptop right now!</p>
+                                <a
+                                    href="https://amzn.to/3fT0yoo"
+                                    class="btn btn-light"
+                                    >
+                                    Buy Now
+                                </a> <hr>
+                                <b>3) Asus VivoBook S15</b><br>
+                                <p>This is a great laptop if you play games for hours or work on different software. It offers long-lasting battery life, an 88% screen-to-body ratio, and a 15.6" FHD display. A pleasing HD camera makes way for this laptop in this list.</p>
+                                <a
+                                    href="https://amzn.to/3fAIuAv"
+                                    class="btn btn-light"
+                                    >
+                                    Buy Now
+                                </a> <hr>
                               </p>
+
                                   </div>
                         </div>
                         <div class="">

@@ -676,7 +676,7 @@ const state = () => ({
         {
             id: 22,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Gaming',
             company: 'Acer',
             gpu: 'NVIDIA GeForce GTX 1650',
             batterylife: 11,
@@ -740,7 +740,7 @@ const state = () => ({
         {
             id: 24,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Gaming',
             company: 'Lenovo',
             namel: 'Lenovo Legion 5i',
             price: 1549,
@@ -772,7 +772,7 @@ const state = () => ({
         {
             id: 25,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Gaming',
             company: 'Dell',
             namel: 'Dell G7 15',
             price: 1577.95,
@@ -932,7 +932,7 @@ const state = () => ({
         {
             id: 56,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Gaming',
             company: 'Dell',
             namel: 'Dell G3 15',
             price: 839.99,
@@ -1028,7 +1028,7 @@ const state = () => ({
         {
             id: 32,
             size: 15.9,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Gaming',
             company: 'HP',
             namel: 'HP Gaming Pavilion 15-dk0046nr',
             price: 714.99,
@@ -1124,7 +1124,7 @@ const state = () => ({
         {
             id: 35,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Gaming',
             company: 'Acer',
             namel: 'ACER NITRO 5',
             price: 729,

@@ -4,7 +4,7 @@
             <div class="container">
                 <ul>
                     <li><nuxt-link to="/">Home</nuxt-link></li>
-                    <li>Best Gaming Laptops</li>
+                    <li>Cheap Gaming Laptops Under 1000 Dollars</li>
                 </ul>
             </div>
         </div>
@@ -16,56 +16,56 @@
                       <div class="blog-details">
                           <div class="article-content">
                               <ul class="entry-meta">
-                                <li><i class="far fa-calendar-alt"></i> July 22, 2021</li>
+                                <li><i class="far fa-calendar-alt"></i> July 13, 2021</li>
                                   <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
                                   </ul>
 
-                              <h1>The Best Budget Laptops for 2021</h1>
+                              <h1>Cheap Gaming Laptops Under 1000 Dollars</h1>
                               <blockquote class="wp-block-quote">
-                                  <p>A good gaming laptop is a kind of blessing for a gamer. Buying the best gaming laptop can be confusing because there are some magnificent models available in the market now. Let us guide you through this web and help you choose the best gaming laptops.</p>
+                                  <p>There is a “myth” that Gaming laptops are often too expensive but the fact is they are not. You can buy cheap gaming laptops for under 1000 dollars. A laptop’s performance is not measured based on price but is measured on basis of software and hardware specification.</p>
                               </blockquote>
-                              <p>In this article, we will guide you through all the specifications, features, advantages, and disadvantages (in any!) of the best gaming laptops. We visited different e-commerce websites and company stores and we have come up with top-notch laptops from different companies.</p>
-                              <p>Our team has several years of gaming experience starting from the 90’s games Road rash & GTA: vice city to COD, Counterstrike, FIFA, GTA:5, call of duty: warzone, and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time. For affordable gaming laptops, refer <a href="https://laptops.ninja/cheap-gaming-laptops-under-1000-dollars"> these cheap gaming laptops under 1000 dollars</a>.</p>
-                              <h2>Top Gaming Laptops</h2>
+                              <p>There are a lot of laptops available within this budget and these machines are produced by multiple known companies like HP, Acer, Lenovo, and many others. So, despite the cheap price, you won’t be compromising much of the performance or specification of these machines.</p>
+                              <p>Our goal is to go through every single gaming laptop that’s under 1000, study the specification in detail and list out the best models that match your expectation. In this list, all the laptops are powered by the latest GPU, CPU, graphics cards, and other important specifications.</p>
+                              <h2>Affordable Gaming Laptops Below $1000</h2>
                               <p>
-                              <b>1) Alienware m17 R3</b> <br>
-                              <p>Overall one of the best gaming laptops, Alienware m17 R3 deserves a place. With Nvidia RTX 2080 Super GPU, Intel Core i9-10980HK processor, and 32 GB RAM, Alienware m17 R3 is built to give a magnificent gaming experience. 17.3 inches’ screen and 4K display enhance the gaming experience.</p>
-                              <p>Alienware m17 R3 is very expensive, that’s the only disadvantage of this laptop. Due to so many advanced features, the battery is below average. The design of this machine is out of the box. Slight white paint gives it a classy look.</p>
+                              <b>1) ACER NITRO 5</b> <br>
+                              <p>Acer Nitro 5 is a great performer and it is amongst the best gaming laptops list. It comes with Nvidia GTX 1650 with 4GB of VRAM and 2.4 GHz intel i5 CPU, you can smoothly play almost any game on this laptop.</p>
+                              <p>Acer nitro starts from just $699, just add a few more bucks and increase the specification of this laptop. It has a big 15.6 inches screen so it might be difficult for you to carry it while traveling. Apart from gaming, you can install and use video and sound editing software, programming software and this laptop will work just fine. It deserves a place in the list of cheap laptops under $1000.</p>
                               <a
-                                  href="https://amzn.to/3i8PLcq"
+                                  href="https://amzn.to/3yTMNyw"
                                   class="btn btn-light"
                                   >
                                   Buy Now
                               </a> <hr>
-                              <b>2) Razer Blade 15</b> <br>
-                              <p>Razer Blade 15 has everything that the best gaming laptop requires, outstanding performance, amazing gaming experience, well built, display, and lighting. Razer laptops are known for all these qualities. This laptop’s design is unique and cool and it is smaller than the other competitor laptops. With a 10th-gen intel processor with 16 GB of RAM, performance can never be an issue.</p>
-                              <p>The bottom line is any game that can easily be installed and played on this machine with outstanding performance. There are several other configurations available that you can choose or replace while buying. Do check the configuration before buying this laptop.</p>
+                              <b>2) Dell G3 15</b> <br>
+                              <p>The biggest advantage of this laptop is its battery life. You don’t see many laptops with great battery life but it offers an above-average battery life. Of course, the performance of this laptop is a plus. Just like Nitro, Dell G3 15 stands tall in front of higher-budget gaming laptops. Though it offers lesser storage space and a dull display other specifications are worth considering when opting for gaming laptops below 1000 dollars.</p>
+                              <p>You can play almost all the games smoothly and a comfortable keyboard adds a better playing experience. It is an all-purpose laptop that’s going to help you in using different software and performing other office tasks as well.</p>
                               <a
-                                  href="https://amzn.to/3p7wBFe"
-                                  class="btn btn-light"
-                                  >
-                                  Buy Now
-                              </a> <hr>
-
-                              <b>3) ACER PREDATOR TRITON 500</b> <br>
-                              <p>The Acer predator triton 500 is one of the most attractive laptops and delivers awesome performance. It deserves a place on this list. With 15.6 inches widescreen, 16 GB of RAM, Intel Core i7-8750H, 2.20GHz, it can run every game smoothly. Ray tracing capable RTX graphics is a plus. This laptop is not quite as expensive as the other laptops on this list. It can be considered a high-performing budget gaming laptop.</p>
-                              <a
-                                  href="https://amzn.to/2Qfynqp"
+                                  href="https://amzn.to/3z0IXDV"
                                   class="btn btn-light"
                                   >
                                   Buy Now
                               </a> <hr>
 
-                              <b>4) Razer Blade Pro 17</b> <br>
-                              <p>Razer laptops have the image of great performers and so do Razer blade pro 17. It is a powerhouse and provides the best gaming experience. It has a 17.6 inches large screen with a 1080p display that works great for gaming. It has 16GB RAM and 512 GB SSD and weighs almost 6.1 pounds.</p>
-                              <p>With Nvidia GeForce RTX 2080 Super Max-Q and 10th generation octa-core processor, it gives tough competition to other laptops in every aspect of the specification. Pricing might be a disadvantage but overall it’s a great machine and has long-lasting battery life. You can consider it in the best gaming laptops.</p>
-
+                              <b>3) MSI GF63</b> <br>
+                              <p>With an intel I 7 processor and Nvidia GeForce GTX 1050 Ti with 4GB of VRAM, MSI GF63 is one of the best performers in this budget. It has a big 15.6 inch HD screen that makes your gaming experience even better. With the kind of performance, it offers, you get to play almost all the modern games smoothly. A perfect choice for gaming enthusiasts and want to spend a limited amount on a gaming laptop.</p>
                               <a
-                                  href="https://amzn.to/2S3aqns"
+                                  href="https://amzn.to/3i6CK2Z"
                                   class="btn btn-light"
                                   >
                                   Buy Now
                               </a> <hr>
+
+                              <b>4) Dell G7 15</b> <br>
+                              <p>As we said earlier, there are very few gaming laptops available in the market that offers good battery life and Dell G7 15 is one of them. It has a stylish design and it’s very slim. You get an outstanding gaming experience with medium-sized games. If you want to install and play multiple large games, then this laptop won’t be a good choice. It is good for daily work and gaming.</p>
+                              <a
+                                  href="https://amzn.to/3wMnNHr"
+                                  class="btn btn-light"
+                                  >
+                                  Buy Now
+                              </a> <hr>
+
+
                                 </p>
 
                                 </div>
@@ -75,7 +75,7 @@
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
                                 <div class="section-title without-bg">
-                                <h2><span class="dot"></span> Gaming Laptops</h2>
+                                <h2><span class="dot"></span> Sub-$1000 Laptops</h2>
                               </div>
                                   <div class="row">
                                     <div class="col-lg-4 col-md-12">
@@ -270,14 +270,14 @@ import ProductItem from '../components/landing-one/ProductItem';
     },
     head () {
     return {
-      title: 'Best gaming laptops 2021',
+      title: 'Cheap Gaming Laptops Under 1000 Dollars',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'Collection of the best gaming laptops.' },
+        { hid: 'description', name: 'description', content: 'Cheap gaming laptops under $1000.' },
         { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
- {rel: 'canonical', href: 'https://laptops.ninja/best-gaming-laptops' }
+ {rel: 'canonical', href: 'https://laptops.ninja/cheap-gaming-laptops-under-1000-dollars' }
 ]
     }
   },
@@ -285,7 +285,7 @@ import ProductItem from '../components/landing-one/ProductItem';
     return {
       company: 'No Preference',
       purpose: 'Gaming',
-      price: 'No Preference',
+      price: 1000,
       size: 'No Preference'
     }
   },

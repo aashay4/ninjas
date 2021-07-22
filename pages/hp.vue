@@ -66,6 +66,28 @@
                                     >
                                     Buy Now
                                 </a> <hr>
+
+                                <h3>HP Omen 17</h3>
+                                <p>
+                                  If you are looking for a high-performance HP laptop then you won't be disappointed after using this HP Omen 17. Many people use this laptop for gaming and the review coming from these users is positive. If you are a frequent traveler then we won't recommend this machine due to its big screen and heavyweight. Avoid this machine if you are a traveler otherwise, it is a beast with smooth performance.
+                                </p>
+                                <a
+                                    href="https://amzn.to/3uz2zLD"
+                                    class="btn btn-light"
+                                    >
+                                    Buy Now
+                                </a> <hr>
+                                <h3>HP Stream 11</h3>
+                                <p>
+                                  HP Stream 11 is one of the best laptops for students. If you are a student and looking for a laptop then HP stream 11 is the right choice. With more than 11 hours of long battery life, you can work on this machine for hours. Along with that, it is a decent choice for those who need a laptop to learn programming, web designing, and other designing tasks.
+                                </p>
+                                <a
+                                    href="https://amzn.to/2To2gGE"
+                                    class="btn btn-light"
+                                    >
+                                    Buy Now
+                                </a> <hr>
+                                <p>So, these are the top best HP laptops collection. We also offer a laptop filtering tool from where you can filter out the best laptops by the specifications you require. Travel through the tool and find the best HP laptop for yourself!</p>
                               </p>
                                   </div>
                         </div>
