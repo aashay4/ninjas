@@ -2,7 +2,7 @@ const state = () => ({
     all: [
         {
             id: 1,
-            purpose: 'General-purpose, Designing',
+            purpose: 'General-purpose, Designing, Student',
             size: 13.3,
             namel: 'Dell XPS 13',
             gpu: 'Intel UHD Graphics',
@@ -484,7 +484,7 @@ const state = () => ({
         {
             id: 16,
             size: 15.6,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Student',
             company: 'Acer',
             gpu: 'Radeon',
             batterylife: 7,
@@ -708,7 +708,7 @@ const state = () => ({
         {
             id: 23,
             size: 13.3,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Student',
             company: 'HP',
             namel: 'HP Envy 13 t',
             price: 846,
@@ -868,7 +868,7 @@ const state = () => ({
         {
             id: 28,
             size: 13.3,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Student',
             company: 'Apple',
             namel: 'Apple MacBook Air',
             price: 969,
@@ -900,7 +900,7 @@ const state = () => ({
         {
             id: 29,
             size: 14,
-            purpose: 'All-purpose',
+            purpose: 'All-purpose, Student',
             company: 'Lenovo',
             namel: 'Lenovo Yoga C940',
             price: 1030,
@@ -964,7 +964,7 @@ const state = () => ({
         {
             id: 30,
             size: 13.3,
-            purpose: 'All-purpose, Designing',
+            purpose: 'All-purpose, Designing, Student',
             company: 'Asus',
             namel: 'Asus ZenBook 13 UX333FA',
             price: 1507.96,

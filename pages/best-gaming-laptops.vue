@@ -248,7 +248,53 @@
                             </div>
                         </div>
                     </div>
-                    <popularposts />
+                    <div class="col-lg-12 col-md-12"><br>
+                        <aside class="widget-area" id="secondary">
+                            <section class="widget widget_comero_posts_thumb">
+                                <h3 class="widget-title">Popular Posts</h3>
+
+                                <article class="item">
+                                    <nuxt-link to="/cheap-gaming-laptops-under-1000-dollars" class="thumb">
+                                        <span class="fullimage cover bg1" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">May 4, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/cheap-gaming-laptops-under-1000-dollars">Cheap Gaming Laptops</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+
+                                <article class="item">
+                                    <nuxt-link to="/laptops-for-students" class="thumb">
+                                        <span class="fullimage cover bg2" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">May 4, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/laptops-for-students">Best Laptops for Students</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+                                <article class="item">
+                                    <nuxt-link to="/designing-sketchup-laptops" class="thumb">
+                                        <span class="fullimage cover bg2" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">June 23, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/designing-sketchup-laptops">Designing and Sketch Up Laptops</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+                                  </section>
+
+                                </aside>
+                    </div>
+
                 </div>
             </div>
         </section>

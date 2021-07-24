@@ -19,6 +19,7 @@ const _27d22108 = () => interopDefault(import('..\\pages\\designing-sketchup-lap
 const _70099a15 = () => interopDefault(import('..\\pages\\general-purpose-laptops.vue' /* webpackChunkName: "pages_general-purpose-laptops" */))
 const _79467030 = () => interopDefault(import('..\\pages\\hp.vue' /* webpackChunkName: "pages_hp" */))
 const _5c1f0849 = () => interopDefault(import('..\\pages\\laptop-finder.vue' /* webpackChunkName: "pages_laptop-finder" */))
+const _60fd2a70 = () => interopDefault(import('..\\pages\\laptops-for-students.vue' /* webpackChunkName: "pages_laptops-for-students" */))
 const _8e0ec55a = () => interopDefault(import('..\\pages\\msi.vue' /* webpackChunkName: "pages_msi" */))
 const _5a269122 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 const _91adbd90 = () => interopDefault(import('..\\pages\\_id\\index.vue' /* webpackChunkName: "pages__id_index" */))
@@ -103,6 +104,10 @@ export const routerOptions = {
     path: "/laptop-finder",
     component: _5c1f0849,
     name: "laptop-finder"
+  }, {
+    path: "/laptops-for-students",
+    component: _60fd2a70,
+    name: "laptops-for-students"
   }, {
     path: "/msi",
     component: _8e0ec55a,
