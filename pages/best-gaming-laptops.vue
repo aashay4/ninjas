@@ -20,7 +20,7 @@
                                   <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
                                   </ul>
 
-                              <h1>The Best Budget Laptops for 2021</h1>
+                              <h1>The Best Gaming Laptops for 2021</h1>
                               <blockquote class="wp-block-quote">
                                   <p>A good gaming laptop is a kind of blessing for a gamer. Buying the best gaming laptop can be confusing because there are some magnificent models available in the market now. Let us guide you through this web and help you choose the best gaming laptops.</p>
                               </blockquote>
