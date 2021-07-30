@@ -13,6 +13,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
+                      <div class="blog-details">
+                          <div class="article-content">
+                            <h1>Laptop Finder Tool</h1>
+                            <blockquote class="wp-block-quote">
+                                <p>Welcome to the simple yet effective laptop finder tool. Here, just enter the specifications you require and get the perfect laptops for your usage. The best way to use this tool properly is to enter the most accurate feature that you require on a laptop. Here, we will discuss each option in the list in detail so that you can have a detailed idea about using this laptop selection tool.</p>
+                            </blockquote>
+                            <h2><b>Determine your purpose</b></h2>
+                            <p>The best way to find an appropriate laptop is to first determine your purpose behind buying a laptop. For example, if you are buying a laptop for daily use, excel sheet updating, watching movies, schools then you do not need to spend a lot of money on your laptop. You can just select the option value "General Purpose". Normally, high performing machine is required for programming, music production, gaming, and photography. If you do not find a laptop for these reasons then you can just opt for the All-purpose laptop option in the finder.</p>
+                            <h2><b>Select Budget</b></h2>
+                            <p>Selecting a budget is also important. The budget of a laptop is directly proportional to the performance, memory, and ram of a laptop. You need a budget of around $200-500 for the general-purpose laptop and $500-$1000 for the All-purpose, business, students, and writers laptop. If you are using a laptop for music, gaming, video production, or designing then you need to spend more money to get the desired laptop. We have a collection of the best budget laptop, you can check if you are looking for budget laptops.</p>
+                            <h2><b>Laptop size</b></h2>
+                            <p>The laptop size does not really affect the budget of your laptop. But in case you are a frequent traveler and you carry your laptop while traveling then we would highly recommend you select a laptop size of around 10-12 inches. Because these laptops are smaller in size and their weight is lesser than the other big laptops so, it might get easier for you to carry small laptops while traveling.</p>
+                      </div>
+                    </div>
                       <div class="section-title without-bg">
                       <h2><span class="dot"></span> Laptop Finder Tool</h2>
                     </div>
@@ -292,7 +306,7 @@
                                 <h3 class="widget-title">Popular Posts</h3>
 
                                 <article class="item">
-                                    <nuxt-link to="/blog-details" class="thumb">
+                                    <nuxt-link to="/best-budget-laptops" class="thumb">
                                         <span class="fullimage cover bg1" role="img"></span>
                                     </nuxt-link>
                                     <div class="info">

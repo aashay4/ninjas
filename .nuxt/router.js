@@ -12,6 +12,7 @@ const _be0364d0 = () => interopDefault(import('..\\pages\\best-lenovo-laptops.vu
 const _46221e52 = () => interopDefault(import('..\\pages\\best-lightweight-laptop.vue' /* webpackChunkName: "pages_best-lightweight-laptop" */))
 const _38ac2086 = () => interopDefault(import('..\\pages\\best-windows-laptops.vue' /* webpackChunkName: "pages_best-windows-laptops" */))
 const _9b971000 = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
+const _c231f2c2 = () => interopDefault(import('..\\pages\\cheap.vue' /* webpackChunkName: "pages_cheap" */))
 const _6ddd1242 = () => interopDefault(import('..\\pages\\cheap-gaming-laptops-under-1000-dollars.vue' /* webpackChunkName: "pages_cheap-gaming-laptops-under-1000-dollars" */))
 const _5c176770 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages_contact" */))
 const _39fe7bbe = () => interopDefault(import('..\\pages\\dell.vue' /* webpackChunkName: "pages_dell" */))
@@ -76,6 +77,10 @@ export const routerOptions = {
     path: "/cart",
     component: _9b971000,
     name: "cart"
+  }, {
+    path: "/cheap",
+    component: _c231f2c2,
+    name: "cheap"
   }, {
     path: "/cheap-gaming-laptops-under-1000-dollars",
     component: _6ddd1242,

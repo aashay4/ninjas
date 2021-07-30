@@ -6,7 +6,7 @@
             <div class="price">
                 <span class="new-price">${{price}}</span>
             </div>
-  
+
             <div class="product-review">
                 <div class="rating">
                     <i :class="star1"></i>
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="item">
-                    <a :href="link" class="btn btn-primary">Buy it now!</a>
+                    <a rel="noopener noreferrer nofollow" :href="link" class="btn btn-primary">Buy it now!</a>
                 </div>
             </div>
         </div>

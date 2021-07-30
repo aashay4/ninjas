@@ -37,6 +37,7 @@
                                 <a
                                     href="https://amzn.to/2R8qKmv"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>
@@ -47,6 +48,7 @@
                                   <a
                                       href="https://amzn.to/3uBQvcM"
                                       class="btn btn-light"
+                                      rel="noopener noreferrer nofollow"
                                       >
                                       Buy Now
                                   </a> <hr>
@@ -57,6 +59,7 @@
                                     <p>With Intel Core i-7 processor, Intel Iris Plus GPU, up to 16 GB of RAM, and up to 2 TB storage, Lenovo Yoga C940 has one of the most advanced features in this list. It weighs just a little more than the other competitors. Apart from that, it offers a beautiful 4K display screen but battery life may be an issue as it is lesser than the other laptops.</p>
                                     <a
                                         href="https://amzn.to/3uBQvcM"
+                                        rel="noopener noreferrer nofollow"
                                         class="btn btn-light"
                                         >
                                         Buy Now
@@ -68,6 +71,7 @@
                                       <a
                                           href="https://amzn.to/3vEaokx"
                                           class="btn btn-light"
+                                          rel="noopener noreferrer nofollow"
                                           >
                                           Buy Now
                                       </a> <hr>
@@ -78,6 +82,7 @@
                                         <a
                                             href="https://amzn.to/3uE2uGG"
                                             class="btn btn-light"
+                                            rel="noopener noreferrer nofollow"
                                             >
                                             Buy Now
                                         </a> <hr>
@@ -88,6 +93,7 @@
                                           <a
                                               href="https://amzn.to/3vE4M9X"
                                               class="btn btn-light"
+                                              rel="noopener noreferrer nofollow"
                                               >
                                               Buy Now
                                           </a> <hr>

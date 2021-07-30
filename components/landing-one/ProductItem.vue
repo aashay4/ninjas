@@ -51,7 +51,7 @@
                     Add to Cart
                 </a><hr>
                 <div class="item">
-                    <a :href="product.link" class="btn btn-light">Buy it now!</a></div>
+                    <a rel="noopener noreferrer nofollow" :href="product.link" class="btn btn-light">Buy it now!</a></div>
             </div>
         </div>
     </div>

@@ -44,11 +44,15 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/google-adsense',
+    '@nuxtjs/sitemap',
   /*
   /*
   ** Global CSS
   */
 ],
+sitemap: {
+    hostname: 'https://laptops.ninja'
+},
 'google-adsense': {
       id: 'ca-pub-6829148792481216'
     },

@@ -34,56 +34,62 @@
                                 </blockquote>
                                 <h2>List of the best HP laptops</h2>
                                 <p>
-                              <h3>HP Elite Dragonfly</h3>
+                              <h2>HP Elite Dragonfly</h2>
                                 <p>This is a great laptop for businessmen and students who are into group projects. When it comes to the style of a machine, this one beats everyone around. With around 13 hours of battery life, you can probably work on this laptop for hours. Price can only be an issue with this machine as it costs above $2000 which might not fall in the budget.</p>
                                 <a
                                     href="https://amzn.to/3ufPIid"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>
-                                <h3>HP Spectre x360</h3>
+                                <h2>HP Spectre x360</h2>
                                 <p>If you are a fan of 2-in-1 laptops then you are gonna like this laptop, this one is one of the best 2-in-1 laptops available right now. Along with that, it is cheaper than the Elite Dragonfly. If you are a student or a businessman then this machine can be the right choice. You can buy this machine for around $1200.</p>
                                 <a
                                     href="https://amzn.to/3toM0S6"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>
-                                <h3>HP Envy 15</h3>
+                                <h2>HP Envy 15</h2>
                                 <p>The HP Envy 15 is a comparatively old laptop but when it comes to the performance, HP Envy 15 is good. You can rely on this machine if you are looking for a laptop with the best performance.</p>
                                 <a
                                     href="https://amzn.to/3uxUvMh"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>
-                                <h3>HP Chromebook 14</h3>
+                                <h2>HP Chromebook 14</h2>
                                 <p>Chromebook laptops are way cheaper than windows or macOS laptops. If you are looking for an affordable HP laptop then this machine can be the right choice. Along with that, this is a lighter laptop with longer battery life which makes it easier to carry while traveling.</p>
                                 <a
                                     href="https://amzn.to/2Rs1J5u"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>
 
-                                <h3>HP Omen 17</h3>
+                                <h2>HP Omen 17</h2>
                                 <p>
                                   If you are looking for a high-performance HP laptop then you won't be disappointed after using this HP Omen 17. Many people use this laptop for gaming and the review coming from these users is positive. If you are a frequent traveler then we won't recommend this machine due to its big screen and heavyweight. Avoid this machine if you are a traveler otherwise, it is a beast with smooth performance.
                                 </p>
                                 <a
                                     href="https://amzn.to/3uz2zLD"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>
-                                <h3>HP Stream 11</h3>
+                                <h2>HP Stream 11</h2>
                                 <p>
                                   HP Stream 11 is one of the best laptops for students. If you are a student and looking for a laptop then HP stream 11 is the right choice. With more than 11 hours of long battery life, you can work on this machine for hours. Along with that, it is a decent choice for those who need a laptop to learn programming, web designing, and other designing tasks.
                                 </p>
                                 <a
                                     href="https://amzn.to/2To2gGE"
                                     class="btn btn-light"
+                                    rel="noopener noreferrer nofollow"
                                     >
                                     Buy Now
                                 </a> <hr>

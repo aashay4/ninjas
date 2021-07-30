@@ -28,41 +28,45 @@
                               <p>Our team has several years of gaming experience starting from the 90’s games Road rash & GTA: vice city to COD, Counterstrike, FIFA, GTA:5, call of duty: warzone, and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time. For affordable gaming laptops, refer <a href="https://laptops.ninja/cheap-gaming-laptops-under-1000-dollars"> these cheap gaming laptops under 1000 dollars</a>.</p>
                               <h2>Top Gaming Laptops</h2>
                               <p>
-                              <b>1) Alienware m17 R3</b> <br>
+                              <h2><b>1) Alienware m17 R3</b></h2> <br>
                               <p>Overall one of the best gaming laptops, Alienware m17 R3 deserves a place. With Nvidia RTX 2080 Super GPU, Intel Core i9-10980HK processor, and 32 GB RAM, Alienware m17 R3 is built to give a magnificent gaming experience. 17.3 inches’ screen and 4K display enhance the gaming experience.</p>
                               <p>Alienware m17 R3 is very expensive, that’s the only disadvantage of this laptop. Due to so many advanced features, the battery is below average. The design of this machine is out of the box. Slight white paint gives it a classy look.</p>
                               <a
                                   href="https://amzn.to/3i8PLcq"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>
-                              <b>2) Razer Blade 15</b> <br>
+                              <h2><b>2) Razer Blade 15</b></h2> <br>
                               <p>Razer Blade 15 has everything that the best gaming laptop requires, outstanding performance, amazing gaming experience, well built, display, and lighting. Razer laptops are known for all these qualities. This laptop’s design is unique and cool and it is smaller than the other competitor laptops. With a 10th-gen intel processor with 16 GB of RAM, performance can never be an issue.</p>
                               <p>The bottom line is any game that can easily be installed and played on this machine with outstanding performance. There are several other configurations available that you can choose or replace while buying. Do check the configuration before buying this laptop.</p>
                               <a
                                   href="https://amzn.to/3p7wBFe"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>
 
-                              <b>3) ACER PREDATOR TRITON 500</b> <br>
+                              <h2><b>3) ACER PREDATOR TRITON 500</b></h2> <br>
                               <p>The Acer predator triton 500 is one of the most attractive laptops and delivers awesome performance. It deserves a place on this list. With 15.6 inches widescreen, 16 GB of RAM, Intel Core i7-8750H, 2.20GHz, it can run every game smoothly. Ray tracing capable RTX graphics is a plus. This laptop is not quite as expensive as the other laptops on this list. It can be considered a high-performing budget gaming laptop.</p>
                               <a
                                   href="https://amzn.to/2Qfynqp"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>
 
-                              <b>4) Razer Blade Pro 17</b> <br>
+                              <h2><b>4) Razer Blade Pro 17</b></h2> <br>
                               <p>Razer laptops have the image of great performers and so do Razer blade pro 17. It is a powerhouse and provides the best gaming experience. It has a 17.6 inches large screen with a 1080p display that works great for gaming. It has 16GB RAM and 512 GB SSD and weighs almost 6.1 pounds.</p>
                               <p>With Nvidia GeForce RTX 2080 Super Max-Q and 10th generation octa-core processor, it gives tough competition to other laptops in every aspect of the specification. Pricing might be a disadvantage but overall it’s a great machine and has long-lasting battery life. You can consider it in the best gaming laptops.</p>
 
                               <a
                                   href="https://amzn.to/2S3aqns"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>

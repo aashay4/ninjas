@@ -28,39 +28,43 @@
                               <p>Our goal is to go through every single gaming laptop that’s under 1000, study the specification in detail and list out the best models that match your expectation. In this list, all the laptops are powered by the latest GPU, CPU, graphics cards, and other important specifications.</p>
                               <h2>Affordable Gaming Laptops Below $1000</h2>
                               <p>
-                              <b>1) ACER NITRO 5</b> <br>
+                              <h2><b>1) ACER NITRO 5</b></h2> <br>
                               <p>Acer Nitro 5 is a great performer and it is amongst the best gaming laptops list. It comes with Nvidia GTX 1650 with 4GB of VRAM and 2.4 GHz intel i5 CPU, you can smoothly play almost any game on this laptop.</p>
                               <p>Acer nitro starts from just $699, just add a few more bucks and increase the specification of this laptop. It has a big 15.6 inches screen so it might be difficult for you to carry it while traveling. Apart from gaming, you can install and use video and sound editing software, programming software and this laptop will work just fine. It deserves a place in the list of cheap laptops under $1000.</p>
                               <a
                                   href="https://amzn.to/3yTMNyw"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>
-                              <b>2) Dell G3 15</b> <br>
+                              <h2><b>2) Dell G3 15</b></h2> <br>
                               <p>The biggest advantage of this laptop is its battery life. You don’t see many laptops with great battery life but it offers an above-average battery life. Of course, the performance of this laptop is a plus. Just like Nitro, Dell G3 15 stands tall in front of higher-budget gaming laptops. Though it offers lesser storage space and a dull display other specifications are worth considering when opting for gaming laptops below 1000 dollars.</p>
                               <p>You can play almost all the games smoothly and a comfortable keyboard adds a better playing experience. It is an all-purpose laptop that’s going to help you in using different software and performing other office tasks as well.</p>
                               <a
                                   href="https://amzn.to/3z0IXDV"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>
 
-                              <b>3) MSI GF63</b> <br>
+                              <h2><b>3) MSI GF63</b></h2> <br>
                               <p>With an intel I 7 processor and Nvidia GeForce GTX 1050 Ti with 4GB of VRAM, MSI GF63 is one of the best performers in this budget. It has a big 15.6 inch HD screen that makes your gaming experience even better. With the kind of performance, it offers, you get to play almost all the modern games smoothly. A perfect choice for gaming enthusiasts and want to spend a limited amount on a gaming laptop.</p>
                               <a
                                   href="https://amzn.to/3i6CK2Z"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>
 
-                              <b>4) Dell G7 15</b> <br>
+                              <h2><b>4) Dell G7 15</b></h2> <br>
                               <p>As we said earlier, there are very few gaming laptops available in the market that offers good battery life and Dell G7 15 is one of them. It has a stylish design and it’s very slim. You get an outstanding gaming experience with medium-sized games. If you want to install and play multiple large games, then this laptop won’t be a good choice. It is good for daily work and gaming.</p>
                               <a
                                   href="https://amzn.to/3wMnNHr"
                                   class="btn btn-light"
+                                  rel="noopener noreferrer nofollow"
                                   >
                                   Buy Now
                               </a> <hr>

@@ -4,7 +4,7 @@
             <div class="container">
                 <ul>
                     <li><nuxt-link to="/">Home</nuxt-link></li>
-                    <li>Best Budget Laptops</li>
+                    <li>Cheap Laptops</li>
                 </ul>
             </div>
         </div>
@@ -13,70 +13,83 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="blog-details">
-                            <div class="article-content">
-                                <ul class="entry-meta">
-                                  <li><i class="far fa-calendar-alt"></i> May 04, 2021</li>
-                                    <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
-                                    </ul>
+                      <div class="blog-details">
+                          <div class="article-content">
+                              <ul class="entry-meta">
+                                <li><i class="far fa-calendar-alt"></i> July 29, 2021</li>
+                                  <li><i class="far fa-user"></i> <a href="#">Adam P Legge</a></li>
+                                  </ul>
 
-                                <h1>The Best Budget Laptops for 2021</h1>
-                                <blockquote class="wp-block-quote">
-                                    <p>The low-cost or affordable laptops can handle everyday computing work and in some cases, you can play a few games as well. Normally budget laptops ring around $500. If you plan for the ChromeOS, you can get a good machine spending fewer bucks.</p>
-                                </blockquote>
-                                <p>Now it's possible to get a decent windows laptop at just around $500. You do not need to spend a lot of money to get a good-performing machine. Chromebook laptops in this list are normally cheaper than windows laptops. If your budget is around $200-300 then Chromebooks can be the right choice. If you are looking for really affordable laptops then have a look at this <a href="https://laptops.ninja/cheap">cheap laptops</a> page.</p>
-                                <p>With budget laptops, you should be prepared to compromise on a few specifications. Apart from that, you can get a good-performing machine for just around $500.</p>
-                                <p>There are many different laptop manufacturing companies available in the market. Select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. On this list, we focused on including laptops with advanced features and laptops which are affordable as well.</p>
-                                <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid laptops with extra-ordinary RAM and Graphics. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list.</p>
-                                <h2>Affordable laptops list</h2>
-                                <p>
-                                <h2><b>1) HP Chromebook 15</b></h2> <br>
-                                <p>If you are looking for a great performance and long-lasting battery life then HP Chromebook 15 is for you. On top of that, this machine offers decent refreshing designs at a very reasonable price. Talking about the features, this HP machine offers an Intel Core i3-8130U processor, 4 GB RAM, and 128 GB storage which is above average for a Chromebook laptop.</p>
-                                <a
-                                    href="https://amzn.to/2Vutlpt"
-                                    class="btn btn-light"
-                                    rel="noopener noreferrer nofollow"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                                <h2><b>2) Acer Chromebook 714</b></h2><br>
-                                <p>You are going to witness a lot of Chromebook laptops on this list. Acer is a great producer of Chromebook laptops. Acer has been widely appreciated for the performance of different Chromebook laptops. Talking about the Acer Chromebook 714 laptop, it is particularly built for daily work for a sub-400 budget. If you add a few bucks, you can buy an Acer Chromebook with some higher specifications. It offers 8 GB RAM, 64 GB storage, Intel Core i3-8130U processor, and Intel UHD Graphics.</p>
-                                <a
-                                    href="https://amzn.to/2KRwDRx"
-                                    class="btn btn-light"
-                                    rel="noopener noreferrer nofollow"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                                <h2><b>3) Acer Spin 3</b></h2><br>
-                                <p>Love windows? This one is for you. It's a two-in-one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and Windows 10 at under $450 are profitable. The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offers 16 GB RAM and an intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with the $450 model, it is the best budget laptop right now!</p>
-                                <a
-                                    href="https://amzn.to/3fT0yoo"
-                                    class="btn btn-light"
-                                    rel="noopener noreferrer nofollow"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                                <h2><b>3) Asus VivoBook S15</b></h2><br>
-                                <p>This is a great laptop if you play games for hours or work on different software. It offers long-lasting battery life, an 88% screen-to-body ratio, and a 15.6" FHD display. A pleasing HD camera makes way for this laptop in this list.</p>
-                                <a
-                                    href="https://amzn.to/3fAIuAv"
-                                    class="btn btn-light"
-                                    rel="noopener noreferrer nofollow"
-                                    >
-                                    Buy Now
-                                </a> <hr>
-                              </p>
+                              <h1>The Cheap Affordable Laptops for 2021</h1>
+                              <blockquote class="wp-block-quote">
+                                  <p>In this article, we bring you the best cheap laptops. There are some inexpensive laptops available in the market today that are capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the tasks/load that you throw at them. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
+                              </blockquote>
+                              <p>If you want more customization options then you can visit our laptop finder tool. With this tool, you can customize price, operating system, laptop size and purpose.</p>
+                              <h2>Top Cheap Laptops</h2>
+                              <p>
+                              <b>1) Acer Aspire 5</b> <br>
+                              <p>With good performance, 8 hours of battery life, and an intel core i-3 processor, the Acer Aspire 5 comes at just $399. Apart from that, it offers 8 GB of RAM and 256 GB of storage. With these features, Acer Aspire 5 deserves to be on this list. If you are looking for an all-purpose cheap laptop then you can choose this laptop. This machine is not receiving good reviews when it comes to graphics and display.</p>
+                              <a
+                                  href="https://amzn.to/3yQWPQJ"
+                                  rel="noopener noreferrer nofollow"
+                                  class="btn btn-light"
+                                  >
+                                  Buy Now
+                              </a> <hr>
+                              <b>2) HP 15</b> <br>
+                              <p>If you are looking for a cheap laptop with a huge storage capacity then HP 15 is the right option for you. HP 15 offers 1 TB storage and 8 GB RAM, it is not usual for a machine just around $450. With AMD Ryzen processor, it is a powerful performer.</p>
+                              <p>The battery life of this machine is not impressive, it lasts just below 5 hours. Choose this laptop if you are a fan of the AMD Ryzen processor and require a lot of internal storage to save your data.</p>
+                              <a
+                                  href="https://amzn.to/2RaMJJJ"
+                                  rel="noopener noreferrer nofollow"
+                                  class="btn btn-light"
+                                  >
+                                  Buy Now
+                              </a> <hr>
 
-                                  </div>
-                        </div>
+                              <b>3) Dell Inspiron 15 3000</b> <br>
+                              <p>This is a great performer for day-to-day tasks. Dell Inspiron 15 can be considered as a general-purpose laptop. It offers 4 GB of RAM and 1 TB storage and an Intel Celeron processor. On this machine, you can perform regular daily tasks and store a lot of data. Just like HP 11, you can buy this laptop if you are dealing with a lot of data and requires a lot of storage on your machine.</p>
+                              <a
+                                  href="https://amzn.to/3uDj3Tg"
+                                  rel="noopener noreferrer nofollow"
+                                  class="btn btn-light"
+                                  >
+                                  Buy Now
+                              </a> <hr>
+
+                              <b>4) Lenovo Chromebook C340-11</b> <br>
+                              <p>Chromebook laptops are often way cheaper but great performers at the same time. Lenovo Chromebook C340 is an inexpensive laptop but a good performer comes with a long-lasting battery of 10-hours. Apart from that, it offers 4GB RAM, 64GB storage, and an Intel Celeron N4000 processor. With just an 11.6 inch screen, you can carry this laptop easily while traveling.</p>
+
+                              <a
+                                  href="https://amzn.to/3p8w1qH"
+                                  rel="noopener noreferrer nofollow"
+                                  class="btn btn-light"
+                                  >
+                                  Buy Now
+                              </a> <hr>
+                                </p>
+
+                                <b>5) Lenovo Ideapad 1</b> <br>
+                                <p>This is a good all-purpose laptop that offers 4 GB RAM, 64 GB storage, AMD A6-9220E processor, and AMD Radeon graphics. With professional design and good battery life, this machine can be a great choice for college students and businessmen. Dolly audio at such a cheap budget is a plus.</p>
+
+                                <a
+                                    href="https://amzn.to/34xg04p"
+                                    rel="noopener noreferrer nofollow"
+                                    class="btn btn-light"
+                                    >
+                                    Buy Now
+                                </a> <hr>
+                                  </p>
+
+                                </div>
+                      </div>
+
                         <div class="">
                           <section class="products-collections-area ptb-60" ref="porto">
                               <div class="container">
-                                  <div class="section-title">
-                                      <h2><span class="dot"></span> Set your budget</h2>
-                                  </div>
-
+                                <div class="section-title without-bg">
+                                <h2><span class="dot"></span> Cheap Laptops</h2>
+                              </div>
                                   <div class="row">
                                     <div class="col-lg-4 col-md-12">
                                         <div class="woocommerce-sidebar-area">
@@ -107,7 +120,7 @@
 
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
-                                                <b-collapse visible id="collapse-2">
+                                                <b-collapse invisible id="collapse-2">
                                                     <ul class="collections-list-row">
                                                         <li><input type="radio" id="HP" value="HP" v-model="company"> <label for="HP">HP</label></li>
                                                         <li><input type="radio" id="Apple" value="Apple" v-model="company"> <label for="Apple">Apple</label></li>
@@ -128,13 +141,9 @@
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
 
-                                                <b-collapse visible id="collapse-3">
+                                                <b-collapse invisible id="collapse-3">
                                                     <ul class="brands-list-row">
                       <li><input type="radio" id="Gaming" value="Gaming" v-model="purpose"> <label for="Gaming">Gaming</label></li>
-                      <li><input type="radio" id="High-performance" value="High-performance" v-model="purpose"> <label for="High-performance">High-performance (Video/Designing)</label></li>
-                      <li><input type="radio" id="All-purpose" value="All-purpose" v-model="purpose"> <label for="All-purpose">All-purpose (Business/Student/Writing/Programming)</label></li>
-                      <li><input type="radio" id="General-purpose" value="General-purpose" v-model="purpose"> <label for="All-purpose">General-purpose (Kids/Cheap/Daily-use)</label></li>
-                      <li><input type="radio" id="No Preference" value="No Preference" v-model="purpose"> <label for="No Preference">No Preference</label></li>
                                                     </ul>
                                                 </b-collapse>
                                             </div>
@@ -146,7 +155,7 @@
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
 
-                                                <b-collapse visible id="collapse-4">
+                                                <b-collapse invisible id="collapse-4">
                                                     <ul class="size-list-row">
                   <li><input type="radio" id="11" value="11" v-model="size"> <label for="11">11</label></li>
                   <li><input type="radio" id="12" value="12" v-model="size"> <label for="12">12</label></li>
@@ -166,7 +175,7 @@
                                                     <i class="fas fa-angle-up"></i>
                                                 </h3>
 
-                                                <b-collapse visible id="collapse-5">
+                                                <b-collapse invisible id="collapse-5">
                                                     <ul class="price-list-row">
                   <li><input type="radio" id="100" value="100" v-model="price"> <label for="100">< $100</label></li>
                   <li><input type="radio" id="200" value="200" v-model="price"> <label for="200">< $200</label></li>
@@ -252,6 +261,52 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-12 col-md-12"><br>
+                        <aside class="widget-area" id="secondary">
+                            <section class="widget widget_comero_posts_thumb">
+                                <h3 class="widget-title">Popular Posts</h3>
+
+                                <article class="item">
+                                    <nuxt-link to="/cheap-gaming-laptops-under-1000-dollars" class="thumb">
+                                        <span class="fullimage cover bg1" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">May 4, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/cheap-gaming-laptops-under-1000-dollars">Cheap Gaming Laptops</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+
+                                <article class="item">
+                                    <nuxt-link to="/laptops-for-students" class="thumb">
+                                        <span class="fullimage cover bg2" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">May 4, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/laptops-for-students">Best Laptops for Students</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+                                <article class="item">
+                                    <nuxt-link to="/designing-sketchup-laptops" class="thumb">
+                                        <span class="fullimage cover bg2" role="img"></span>
+                                    </nuxt-link>
+                                    <div class="info">
+                                        <time datetime="2021-05-4">June 23, 2021</time>
+                                        <h4 class="title usmall"><nuxt-link to="/designing-sketchup-laptops">Designing and Sketch Up Laptops</nuxt-link></h4>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </article>
+
+                                  </section>
+
+                                </aside>
+                    </div>
 
                 </div>
             </div>
@@ -260,26 +315,28 @@
 </template>
 
 <script>
+import popularposts from '../components/landing-one/popularposts';
 import Sidebar from '../components/all-products/Sidebar';
 import QuckView from '../components/modals/QuckView';
 import { mutations } from '../utils/sidebar-util';
 import ProductItem from '../components/landing-one/ProductItem';
   export default {
     components: {
+      popularposts,
       Sidebar,
       QuckView,
       ProductItem
     },
     head () {
     return {
-      title: 'Best budget laptop for 2021',
+      title: 'Cheap laptops 2021',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: '' },
+        { hid: 'description', name: 'description', content: 'List of affordable laptops: 1) Acer Aspire 5, 2) HP 15, 3) Dell Inspiron 15 3000, 4) Lenovo Chromebook C340-11, 5) Lenovo Ideapad 1' },
         { hid: 'robots', name: 'robots', content: 'index,follow' }
       ],
       link: [
- {rel: 'canonical', href: 'https://laptops.ninja/best-budget-laptops' }
+ {rel: 'canonical', href: 'https://laptops.ninja/cheap' }
 ]
     }
   },
