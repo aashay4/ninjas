@@ -1055,7 +1055,7 @@ const state = () => ({
             timePeriod: false,
             bigimage: require('../assets/img/HP_Gaming_Pavilion_15-dk0046nr_big.jpg'),
             dateTime: new Date("December 19, 2020 17:00:00 PDT"),
-            description: ''
+            description: 'At 714.99, hp gaming pavilion 15 dk0046nr is an entry-level gaming laptop. It has a powerful Intel Core i7 processor along with an Nvidia GeForce GPU and an attractive design. With such a processor and GPU, the hp gaming pavilion 15 dk0046nr becomes one of the cheapest laptops under $1000. Most gamers complain about the battery life of their gaming laptop. You will not be complaining about the battery life of this machine because it offers 8.5 hours of battery life.'
         },
         {
             id: 33,
