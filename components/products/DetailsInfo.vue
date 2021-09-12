@@ -5,7 +5,7 @@
                 <div class="col-lg-12 col-md-12">
                     <ul class="tabs">
                         <li>
-                            <div class="dot"></div> About {{namel}}
+                            <div class="dot"></div> <h1>About {{namel}}</h1>
                         </li>
                     </ul>
                 </div>
@@ -18,8 +18,8 @@
                                             <li v-if="storage > 999">storage: {{storage/1000}} TB</li>
                                             <li v-else>Storage: {{storage}} GB</li>
                                             <li>weight: {{weight}} Pounds</li>
-                                            <li>battery life: {{batterylife}} Pounds</li>
-                                            <li>GPU: {{gpu}} Pounds</li>
+                                            <li>battery life: {{batterylife}} Hours</li>
+                                            <li>GPU: {{gpu}}</li>
                                         </ul>
                                     </div>
 
