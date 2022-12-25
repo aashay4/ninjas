@@ -30,8 +30,9 @@ export default {
     { src: '~/plugins/vue-backtotop', ssr: false },
     { src: '~/plugins/vue-toastification', ssr: false },
     { src: '~/plugins/vueperslides', ssr: false },
+    { src: '~/plugins/firebase.js', ssr: false},
+],
     // { src: '~/plugins/firebase' },
-  ],
   /*
   ** Nuxt.js dev-modules
   */
@@ -45,11 +46,9 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/google-adsense',
     '@nuxtjs/sitemap',
-  /*
-  /*
-  ** Global CSS
-  */
+    '@nuxtjs/axios'
 ],
+
 sitemap: {
     hostname: 'https://laptops.ninja'
 },
@@ -79,6 +78,7 @@ sitemap: {
   ** Build configuration
   */
   build: {
+postcss: null,
     /*
     ** You can extend webpack config here
     */

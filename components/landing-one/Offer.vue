@@ -5,29 +5,23 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="offer-box">
-                        <img src="../../assets/img/laptop_company.jpg" alt="image">
+                        <img src="../../assets/img/first_final.jpg" alt="image">
 
                         <div class="category">
-                            <h4>Best Laptop Companies</h4>
+                            <h4>Applications</h4>
                         </div>
 
                         <div class="box-inner">
                             <div class="inner-content">
-                                <h3>Laptop Companies</h3>
+                                <h3>Plastic Optic Cables Applications</h3>
                                 <ul>
-                                    <li><nuxt-link to="/hp"> HP</nuxt-link></li>
-                                    <li><nuxt-link to="/apple"> Apple</nuxt-link></li>
+                                    <li> Computer Networks</li>
+                                    <li> Home Interior Designs</li>
                                     <li>
-                                      <nuxt-link to="/dell"> Dell</nuxt-link>
+                                       Automotive Devices
                                     </li>
                                     <li>
-                                      <nuxt-link to="/msi"> MSI</nuxt-link>
-                                    </li>
-                                    <li>
-                                      <nuxt-link to="/acer"> Acer</nuxt-link>
-                                    </li>
-                                    <li>
-                                      <nuxt-link to="/best-lenovo-laptops"> Lenovo</nuxt-link>
+                                       Data Distribution Systems
                                     </li>
                                 </ul>
                             </div>
@@ -37,7 +31,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="offer-box">
-                        <img src="../../assets/img/laptop_reason.jpg" alt="image">
+                        <img src="../../assets/img/second_final.jpg" alt="image">
 
                         <div class="category">
                             <h4>Best Laptops for</h4>

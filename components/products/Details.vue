@@ -3,26 +3,46 @@
         <div class="product-details-content">
             <h3>{{namel}}</h3>
 
-            <div class="price">
-                <span class="new-price">${{price}}</span>
-            </div>
-
-            <div class="product-review">
-                <div class="rating">
-                    <i :class="star1"></i>
-                    <i :class="star2"></i>
-                    <i :class="star3"></i>
-                    <i :class="star4"></i>
-                    <i :class="star5"></i>
-                </div>
-            </div>
-
             <div class="product-add-to-cart">
-                <div class="input-counter">
-                    <span @click="decreaseQuantity()" class="minus-btn"><i class="fas fa-minus"></i></span>
-                    {{quantity}}
-                    <span @click="increaseQuantity()" class="plus-btn"><i class="fas fa-plus"></i></span>
-                </div>
+              <table class="table table-bordered">
+                  <thead>
+                      <tr>
+                          <th scope="col">Length</th>
+                          <th scope="col">Quantity</th>
+                          <th scope="col">Rate(Per Unit)</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>{{inputprice}}</td>
+                      <td>1 to 9</td>
+                      <td>{{rate}}</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>10 to 49</td>
+                      <td>{{rate1}}</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>50 to 99</td>
+                      <td>{{rate2}}</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>100+</td>
+                      <td>{{rate3}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              <div class="">
+                <p>Enter length <b style="color: blue">(Unit in mm in Miltiple of 100 mm)</b> : </p>
+<input type="number" class="form-control" v-model="inputprice" @input="validathun()" placeholder="Enter length in multiple of 100">
+</div><br>
+                <div class="">
+                  <p>Enter quantity : </p>
+                  <input type="number" class="form-control" v-model="quantity" @input="validathun()" placeholder="Enter Quantity">
+                </div><br>
 
                 <button v-if="getExistPId" type="submit" class="btn btn-danger" @click="addToCart()">
                     <i class="fas fa-cart-plus"></i> Already Added
@@ -30,7 +50,11 @@
 
                 <button v-else type="submit" class="btn btn-primary" @click="addToCart()">
                     <i class="fas fa-cart-plus"></i> Add to Cart
-                </button>
+                </button><br><hr>
+
+                <div class="price" style="color: teal">
+                    <h2 class="new-price">${{tprice}}</h2>
+                </div>
             </div>
 
             <div class="buy-checkbox-btn">
@@ -46,7 +70,9 @@
                 </div>
 
                 <div class="item">
-                    <a rel="noopener noreferrer nofollow" :href="link" class="btn btn-primary">Buy it now!</a>
+                            <div class="product-cart-btn">
+                      <nuxt-link to="/cart" class="btn btn-light">Verify your order and contact us!</nuxt-link>
+                  </div><br>
                 </div>
             </div>
         </div>
@@ -58,7 +84,14 @@ export default {
     data(){
         return {
             getExistPId: false,
-            quantity: 1
+            length: '',
+            inputprice: '',
+            quantity: 1,
+            tprice: null,
+            rate: '',
+            rate1: '',
+            rate2: '',
+            rate3: ''
         }
     },
     props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link', 'os' ],
@@ -68,6 +101,82 @@ export default {
         }
     },
     methods: {
+      validathun(){
+      if(this.inputprice %100 != 0){
+        this.$toast("Please add value in the multiple of 100", {
+            icon: 'fas fa-cart-plus'
+        });
+      }
+      else {
+        if(this.inputprice === "500" || this.inputprice === "400" || this.inputprice === "300" || this.inputprice === "200" || this.inputprice === "100") {
+          alert(this.price)
+if(this.quantity >= 1 && this.quantity < 10){
+    this.rate = 2.50;
+    this.rate1 = 2.45;
+    this.rate2 = 2.42;
+    this.rate3 = 2.37;
+           this.tprice = this.price * this.quantity; // <== The calculation
+           alert("1 to 10")
+           this.tprice = this.tprice.toFixed(2);
+}
+else if(this.quantity >= 10 && this.quantity < 50){
+           this.tprice = (this.price * this.quantity) - (this.price * 0.02 * this.quantity) ; // <== The calculation
+           alert("11 to 49")
+           this.tprice = this.tprice.toFixed(2);
+}
+else if(this.quantity >= 50 && this.quantity < 100){
+           this.tprice = (this.price * this.quantity) - (this.price * 0.03 * this.quantity); // <== The calculation
+           alert("50 to 99")
+           this.tprice = this.tprice.toFixed(2);
+}
+else if(this.quantity >= 100){
+           this.tprice = (this.price * this.quantity) - (this.price * 0.05 * this.quantity); // <== The calculation
+           alert("more then 100")
+           this.tprice = this.tprice.toFixed(2);
+}
+else{
+  alert("else")
+           this.tprice = 198 * this.quantity; // <== The calculation
+}
+}
+//else if(this.quantity == 1) {
+//            this.price = this.price + ( this.quantity * 208 ) + ( this.inputprice * 0.08 ) ; // <== The calculation
+            //$cart_item['custom_data']['price'] = round(this.price, 2); // Save the price in the custom data
+
+// }
+else {
+
+if(this.quantity >= 1 && this.quantity < 10){
+  alert(this.inputprice)
+           this.tprice = ((this.inputprice - 500) * 0.001) + (this.price * this.quantity); // <== The calculation
+           alert("1 to 10 fo 1000")
+           this.tprice = this.tprice.toFixed(2);
+}
+else if(this.quantity >= 10 && this.quantity < 50){
+           this.tprice = ((this.inputprice - 500) * 0.001) * (this.price * this.quantity) - (this.price * 0.02) ; // <== The calculation
+           alert("11 to 49")
+           this.tprice = this.tprice.toFixed(2);
+}
+else if(this.quantity >= 50 && this.quantity < 100){
+           this.tprice = ((this.inputprice - 500) * 0.001) * (this.price * this.quantity) - (this.price * 0.03); // <== The calculation
+           alert("50 to 99")
+           this.tprice = this.tprice.toFixed(2);
+}
+else if(this.quantity >= 100){
+           this.tprice = ((this.inputprice - 500) * 0.001) * (this.price * this.quantity) - (this.price * 0.05); // <== The calculation
+           alert("more then 100")
+           this.tprice = this.tprice.toFixed(2);
+}
+else{
+  alert("else")
+           this.tprice = 198 * this.quantity; // <== The calculation
+}
+}
+      }
+    },
+      correctlength(){
+        alert(this.length)
+      },
         addToCart(){
             const product = [{
                 id: this.id,
@@ -89,18 +198,10 @@ export default {
                     return cart.id == id
                 })
 
-                if(cartIndex == -1){
                     this.$store.dispatch('addToCart', product);
                     this.$toast("Added to cart", {
                         icon: 'fas fa-cart-plus'
                     });
-                } else {
-                    this.$store.dispatch('updateCart', {
-                        id, unit: 1, cart: this.cart
-                    });
-                    this.getExistPId = true
-                    this.$toast.info("Already added to the cart");
-                }
             } else {
                 this.$store.dispatch('addToCart', product)
                 this.$toast("Added to cart",{
@@ -114,7 +215,7 @@ export default {
                     icon: 'fas fa-cart-plus'
                 });
             } else {
-                this.quantity++
+                this.quantity++;
             }
         },
         decreaseQuantity() {

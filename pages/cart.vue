@@ -11,6 +11,7 @@
         </div>
         <!-- End Page Title Area -->
         <CartItems />
+
     </div>
 </template>
 

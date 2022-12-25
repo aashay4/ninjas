@@ -57,33 +57,33 @@
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
                                             <label>Name <span>(required)*</span></label>
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
+                                            <input type="text" name="name" v-model="name" class="form-control" placeholder="Enter your name">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
                                             <label>Email <span>(required)*</span></label>
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email Address">
+                                            <input type="email" name="email" v-model="email" class="form-control" placeholder="Enter your Email Address">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
                                             <label>Phone Number <span>(required)*</span></label>
-                                            <input type="text" name="phone_number" id="phone_number" class="form-control" placeholder="Enter your Phone Number">
+                                            <input type="text" name="phone_number" v-model="phone_number" class="form-control" placeholder="Enter your Phone Number">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
                                             <label>Your Message <span>(required)*</span></label>
-                                            <textarea name="message" id="message" cols="30" rows="8" class="form-control" placeholder="Enter your Message"></textarea>
+                                            <textarea name="message" v-model="message" cols="30" rows="8" class="form-control" placeholder="Enter your Message"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                        <button type="button" @click="writeToFirestore()" class="btn btn-primary">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -95,6 +95,8 @@
     </div>
 </template>
 <script>
+import {fireDb} from '~/plugins/firebase.js'
+
   export default {
     head () {
     return {
@@ -108,6 +110,41 @@
  {rel: 'canonical', href: 'https://laptops.ninja/contact' }
 ]
     }
+  },
+  data(){
+    return {
+      name: '',
+      email: '',
+      phone_number: '',
+      message: ''
+    }
+  },
+  methods: {
+    async writeToFirestore() {
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      var yyyy = today.getFullYear();
+      var hour = today.getHours();
+      var minute = today.getMinutes();
+      var second = today.getSeconds();
+      today = dd + '_' + mm + '_' + yyyy + '_' + hour + '_' + minute + '_' + second;
+  const ref = fireDb.collection("contact").doc(today)
+  const document = {
+    name: this.name,
+    email: this.email,
+    phone_number: this.phone_number,
+    message: this.message
+  }
+  try {
+    await ref.set(document)
+  } catch (e) {
+    // TODO: error handling
+    console.error(e)
+  }
+//  this.writeSuccessful = true
+}
+
   }
   }
 </script>

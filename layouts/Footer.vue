@@ -5,7 +5,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="logo">
-                            <nuxt-link to="/"><h1>Laptops</h1></nuxt-link>
+                            <nuxt-link to="/"><h1>POF</h1></nuxt-link>
                         </div>
 
                         <p>Find the best laptops from this collection. Filter the laptops by price, size in inches, purpose and the laptop company.</p>
@@ -17,7 +17,7 @@
                         <h3>Contact Us</h3>
 
                         <ul class="footer-contact-info">
-                            <li><i class="far fa-envelope"></i> Email Us: <a href="mailto:support@laptops.ninja">support@laptops.ninja</a></li>
+                            <li><i class="far fa-envelope"></i> Email Us: <a href="mailto:support@plasticopticfibercables.com">support@plasticopticfibercables.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
-                        <p>Copyright &copy; 2020 Laptop Ninja. All Rights Reserved</p>
+                        <p>Copyright &copy; 2022. All Rights Reserved</p>
                     </div>
 
                     <div class="col-lg-6 col-md-6">

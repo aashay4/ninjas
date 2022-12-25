@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TopPanel></TopPanel>
     <TopHeader></TopHeader>
     <Menubar></Menubar>
     <nuxt />
