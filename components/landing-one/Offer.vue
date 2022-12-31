@@ -34,15 +34,14 @@
                         <img src="../../assets/img/second_final.jpg" alt="image">
 
                         <div class="category">
-                            <h4>Best Laptops for</h4>
+                            <h4>Plastic Optic Cables Design</h4>
                         </div>
 
                         <div class="box-inner">
                             <div class="inner-content">
-                                <h3>Laptops for</h3>
-
+                                <h3>Design</h3>
                                 <ul>
-                                    <li><nuxt-link to="/best-gaming-laptops">Gaming</nuxt-link></li>
+                                    <li>Core and a Cladding Layer</li>
                                         </ul>
                             </div>
                         </div>
@@ -54,23 +53,15 @@
                         <img src="../../assets/img/laptops_os.jpg" alt="image">
 
                         <div class="category">
-                            <h4>Best Laptop OS</h4>
+                            <h4>SPEED</h4>
                         </div>
 
                         <div class="box-inner">
                             <div class="inner-content">
-                                <h3>Laptop OS</h3>
+                                <h3>SPEED</h3>
 
                                 <ul>
-                                    <li><nuxt-link to="/apple"> MACos</nuxt-link></li>
-                                    <li>
-                                      <nuxt-link to="/best-windows-laptops"> Windows</nuxt-link>
-                                    </li>
-                                    <li>
-                                      <nuxt-link to='/best-chromebook-laptops'>
-                                      ChromeOS
-                                    </nuxt-link>
-                                    </li>
+                                    <li> 1 PETABIT per second (10¹⁵bits/s)</li>
                                 </ul>
                             </div>
                         </div>

@@ -1,6 +1,7 @@
 <template>
     <!-- Start Top Panel Area -->
     <client-only>
+      <div :class="['navbar-area', {'is-sticky': isSticky}]">
         <transition name="fade">
             <div class="top-panel">
                 <div class="container">
@@ -20,11 +21,11 @@
                             </carousel>
                         </div>
 
-                        <i @click="emitToParent" class="fas fa-times panel-close-btn"></i>
                     </div>
                 </div>
             </div>
         </transition>
+</div>
     </client-only>
     <!-- End Top Panel Area -->
 </template>
@@ -34,21 +35,25 @@ export default {
     data() {
         return {
             isShowing: true,
+            isSticky: false,
             items: [
                 {
                     id: 1,
-                    text: '<strong>Check out the latest deals in laptops</strong> select sales styles <a href="#">Read More</a>'
-                },
-                {
-                    id: 2,
-                    text: '<strong>Enjoy an extra 20% off</strong> select sales styles <a href="#">Read More</a>'
-                },
-                {
-                    id: 3,
-                    text: '<strong>Enjoy an extra 20% off</strong> select sales styles <a href="#">Read More</a>'
-                },
+                    text: '<strong>Do not reload the page otherwise cart items will be vanished</strong>'
+                }
             ]
         }
+    },
+    mounted(){
+        const that = this;
+        window.addEventListener('scroll', () => {
+            let scrollPos = window.scrollY;
+            if(scrollPos >= 100){
+                that.isSticky = true;
+            } else {
+                that.isSticky = false;
+            }
+        })
     },
     methods: {
         emitToParent(){

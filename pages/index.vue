@@ -9,7 +9,7 @@
                           <h1>PLASTIC OPTIC FIBER CABLES!</h1>
                           <p>New Products 2023</p>
 
-                          <button @click.prevent="scrollMeTo('porto')" class="btn btn-primary">Shop Cables</button>
+                          <button class="btn btn-primary">Shop Cables</button>
                       </div>
                   </div>
               </div>

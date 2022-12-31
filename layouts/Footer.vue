@@ -7,8 +7,7 @@
                         <div class="logo">
                             <nuxt-link to="/"><h1>POF</h1></nuxt-link>
                         </div>
-
-                        <p>Find the best laptops from this collection. Filter the laptops by price, size in inches, purpose and the laptop company.</p>
+                        <p>Choose the custom length plastic optic fiber cables, add required information in the box and we will get in touch shortly.</p>
                     </div>
                 </div>
 

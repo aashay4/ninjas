@@ -3,10 +3,10 @@
     <section class="products-offer-area ptb-60">
         <div class="container">
             <div class="products-offer-content">
-                <span>We have laptops for everyone</span>
+                <span>We have plastic optic cables for every requirements</span>
                 <h1>
-                Find the best with our tool</h1>
-                <p>Check out now</p>
+                Customize POF cables from the product page</h1>
+                <p>Check products now</p>
             </div>
         </div>
     </section>

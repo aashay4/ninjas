@@ -6,7 +6,7 @@
                 <div class="col-lg-6">
                     <div class="newsletter-content">
                         <h3>Subscribe to our newsletter</h3>
-                        <p>A short sentence describing what someone will receive by subscribing</p>
+                        <p>You will receive latest news and offers regarding plastic optic fiber cables</p>
                     </div>
                 </div>
 

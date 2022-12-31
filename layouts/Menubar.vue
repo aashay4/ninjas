@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- Start Navbar Area -->
-        <div :class="['navbar-area', {'is-sticky': isSticky}]">
+        <div>
             <div class="comero-nav">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
