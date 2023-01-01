@@ -4,26 +4,30 @@
     "path": "/cart",
     "component": "E:\\\\Nuxt\\\\lantech_ecommerce_final_1\\\\bolster-vue\\\\bolster-vue\\\\pages\\\\cart.vue",
     "chunkName": "pages/cart",
-    "url": "/cart"
+    "url": "/cart",
+    "_name": "_2c10091e"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "E:\\\\Nuxt\\\\lantech_ecommerce_final_1\\\\bolster-vue\\\\bolster-vue\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "url": "/contact"
+    "url": "/contact",
+    "_name": "_b5973b42"
   },
   {
     "name": "index",
     "path": "/",
     "component": "E:\\\\Nuxt\\\\lantech_ecommerce_final_1\\\\bolster-vue\\\\bolster-vue\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "url": "/"
+    "url": "/",
+    "_name": "_1ad37bd1"
   },
   {
     "name": "id",
     "path": "/:id",
     "component": "E:\\\\Nuxt\\\\lantech_ecommerce_final_1\\\\bolster-vue\\\\bolster-vue\\\\pages\\\\_id\\\\index.vue",
-    "chunkName": "pages/_id/index"
+    "chunkName": "pages/_id/index",
+    "_name": "_0ac2e82e"
   }
 ]

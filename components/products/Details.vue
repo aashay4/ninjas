@@ -48,7 +48,7 @@
                     <i class="fas fa-cart-plus"></i> Already Added
                 </button>
 
-                <button v-else type="submit" class="btn btn-primary" @click="addToCart()">
+                <button v-else type="submit" :disabled="isDisabled" class="btn btn-primary" @click="addToCart()">
                     <i class="fas fa-cart-plus"></i> Add to Cart
                 </button><br><hr>
 
@@ -97,6 +97,16 @@ export default {
     },
     props: ['id', 'namel', 'price', 'image', 'star1', 'star2', 'star3', 'star4', 'star5', 'link', 'os' ],
     computed: {
+      isDisabled() {
+  // you can  check your form is filled or not here.
+  if(this.inputprice !== "" && this.quantity %1 === 0 && this.inputprice %100 === 0){
+    return false;
+  }
+  else {
+    return true;
+  }
+},
+
         cart(){
             return this.$store.getters.cart
         }
@@ -117,7 +127,6 @@ if(this.quantity >= 1 && this.quantity < 10){
     this.rate2 = 2.42;
     this.rate3 = 2.37;
            this.tprice = this.price * this.quantity; // <== The calculation
-           alert("1 to 10")
            this.tprice = this.tprice.toFixed(2);
 }
 else if(this.quantity >= 10 && this.quantity < 50){
@@ -126,7 +135,7 @@ else if(this.quantity >= 10 && this.quantity < 50){
   this.rate2 = 2.42;
   this.rate3 = 2.37;
            this.tprice = (this.price * this.quantity) - (this.price * 0.02 * this.quantity) ; // <== The calculation
-           alert("11 to 49")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else if(this.quantity >= 50 && this.quantity < 100){
@@ -135,7 +144,7 @@ else if(this.quantity >= 50 && this.quantity < 100){
   this.rate2 = 2.42;
   this.rate3 = 2.37;
            this.tprice = (this.price * this.quantity) - (this.price * 0.03 * this.quantity); // <== The calculation
-           alert("50 to 99")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else if(this.quantity >= 100){
@@ -144,7 +153,7 @@ else if(this.quantity >= 100){
   this.rate2 = 2.42;
   this.rate3 = 2.37;
            this.tprice = (this.price * this.quantity) - (this.price * 0.05 * this.quantity); // <== The calculation
-           alert("more then 100")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else{
@@ -166,26 +175,26 @@ if(this.quantity >= 1 && this.quantity < 10){
   this.rate2 = 2.91;
   this.rate3 = 2.86;
            this.tprice = ((this.inputprice - 500) * 0.001) + (this.price * this.quantity); // <== The calculation
-           alert("1 to 10 fo 1000")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else if(this.quantity >= 10 && this.quantity < 50){
              this.cprice = ((this.inputprice - 500) * 0.001) + this.price;
-             alert(this.cprice);
+
            this.tprice = ((this.inputprice - 500) * 0.001) + (this.cprice * this.quantity) - (this.cprice * 0.02 * this.quantity) ; // <== The calculation
-           alert("11 to 49")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else if(this.quantity >= 50 && this.quantity < 100){
   this.cprice = ((this.inputprice - 500) * 0.001) + this.price;
            this.tprice = ((this.inputprice - 500) * 0.001) + (this.cprice * this.quantity) - (this.cprice * 0.03 * this.quantity); // <== The calculation
-           alert("50 to 99")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else if(this.quantity >= 100){
   this.cprice = ((this.inputprice - 500) * 0.001) + this.price;
            this.tprice = ((this.inputprice - 500) * 0.001) + (this.cprice * this.quantity) - (this.cprice * 0.05 * this.quantity); // <== The calculation
-           alert("more then 100")
+
            this.tprice = this.tprice.toFixed(2);
 }
 else{

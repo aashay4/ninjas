@@ -35,24 +35,7 @@
                     <i :class="product.star5"></i>
                 </div>
 
-                <a
-                    v-if="getExistPId === product.id"
-                    href="javascript:void(0)"
-                    class="btn btn-light added-btn"
-                    @click="addToCart(product)">
-                    Added Already!
-                </a>
-
-                <a
-                    v-else
-                    href="javascript:void(0)"
-                    class="btn btn-light"
-                    @click="addToCart(product)">
-                    Add to Cart
-                </a><hr>
-                <div class="item">
-                    <a rel="noopener noreferrer nofollow" :href="product.link" class="btn btn-light">Buy it now!</a></div>
-            </div>
+                      </div>
         </div>
     </div>
 </template>
